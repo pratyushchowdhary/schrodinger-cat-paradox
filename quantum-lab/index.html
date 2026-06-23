@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#fff8e8">
   <title>Schrödinger Cat Paradox</title>
-  <link rel="stylesheet" href="styles.css?v=9">
+  <link rel="stylesheet" href="styles.css?v=10">
 </head>
 <body>
   <div class="app-shell">
@@ -45,6 +45,10 @@
               <div class="device flask"><b>⚗</b><span>FLASK</span></div><i class="wire w4">→</i>
               <div class="device cat"><b id="cat-face">🐈</b><span>CAT</span></div>
             </div>
+            <div class="probability-control chamber-probability">
+              <label for="probability">DECAY CHANCE <strong id="probability-value">50%</strong></label>
+              <input id="probability" type="range" min="10" max="90" value="50" step="10">
+            </div>
             <div class="sealed-view" id="sealed-view">
               <div class="question-orbit"><span>?</span></div>
               <strong>OUTCOME UNOBSERVED</strong>
@@ -79,10 +83,6 @@
     </section>
 
     <section class="controls">
-      <div class="probability-control">
-        <label for="probability">DECAY CHANCE <strong id="probability-value">50%</strong></label>
-        <input id="probability" type="range" min="10" max="90" value="50" step="10">
-      </div>
       <button class="primary" id="action" disabled>PLACE ALL PARTS</button>
     </section>
 
