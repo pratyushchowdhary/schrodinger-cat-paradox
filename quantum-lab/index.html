@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff8e8">
+  <title>Schrödinger Cat Paradox</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="logo" href="#">⚛ <span>SCHRÖDINGER CAT PARADOX</span></a>
+    <div class="progress"><span id="step-label">STEP 1 OF 4</span><div><i id="progress-bar"></i></div></div>
+    <button class="round-button" id="reset" aria-label="Restart experiment">↻</button>
+  </header>
+
+  <main>
+    <section class="intro">
+      <p class="kicker">A QUANTUM THOUGHT EXPERIMENT</p>
+      <h1 id="lesson-title">BUILD THE EXPERIMENT</h1>
+      <p id="lesson-copy">Put each part inside the box to connect the chain reaction.</p>
+    </section>
+
+    <section class="game-layout">
+      <aside class="card tray">
+        <div class="card-title"><span>YOUR PARTS</span><small id="parts-count">0 / 5 PLACED</small></div>
+        <div class="parts" id="parts">
+          <button class="part" data-part="atom"><b>☢</b><span>Radioactive atom</span><small>May decay randomly</small></button>
+          <button class="part" data-part="detector"><b>⌁</b><span>Geiger counter</span><small>Detects radiation</small></button>
+          <button class="part" data-part="hammer"><b>🔨</b><span>Hammer</span><small>Breaks the flask</small></button>
+          <button class="part" data-part="flask"><b>⚗</b><span>Poison flask</span><small>Part of the paradox</small></button>
+          <button class="part" data-part="cat"><b>🐈</b><span>The cat</span><small>Macroscopic observer</small></button>
+        </div>
+      </aside>
+
+      <section class="experiment">
+        <div class="box-wrap" id="box-wrap">
+          <div class="box-lid" id="box-lid"><span>QUANTUM CHAMBER</span><i></i><i></i><i></i></div>
+          <div class="box" id="box">
+            <div class="empty-message" id="empty-message"><strong>+</strong><span>Click parts to place them inside</span></div>
+            <div class="machine" id="machine" aria-label="Experiment apparatus">
+              <div class="device atom"><b>☢</b><span>ATOM</span></div><i class="wire w1">→</i>
+              <div class="device detector"><b>⌁</b><span>DETECTOR</span></div><i class="wire w2">→</i>
+              <div class="device hammer"><b>🔨</b><span>HAMMER</span></div><i class="wire w3">→</i>
+              <div class="device flask"><b>⚗</b><span>FLASK</span></div><i class="wire w4">→</i>
+              <div class="device cat"><b id="cat-face">🐈</b><span>CAT</span></div>
+            </div>
+            <div class="sealed-view" id="sealed-view">
+              <div class="question-orbit"><span>?</span></div>
+              <strong>OUTCOME UNOBSERVED</strong>
+              <small>The box is isolated. You cannot inspect the result.</small>
+            </div>
+            <div class="result-view" id="result-view">
+              <div class="result-icon" id="result-icon">🐈</div>
+              <strong id="result-text">CAT ALIVE</strong>
+              <small id="result-chain">The atom did not decay.</small>
+            </div>
+          </div>
+          <div class="box-feet"><i></i><i></i></div>
+        </div>
+
+        <div class="timeline" id="timeline">
+          <div class="active"><span>1</span><b>ASSEMBLE</b></div><i></i>
+          <div><span>2</span><b>SEAL</b></div><i></i>
+          <div><span>3</span><b>WAIT</b></div><i></i>
+          <div><span>4</span><b>MEASURE</b></div>
+        </div>
+      </section>
+
+      <aside class="card science-card">
+        <div class="card-title"><span>WHAT IT MEANS</span><small>LIVE MODEL</small></div>
+        <div class="possibilities">
+          <div class="possibility alive"><span>ATOM INTACT</span><b>🐈</b><strong>CAT ALIVE</strong><small id="alive-chance">50%</small></div>
+          <div class="plus">+</div>
+          <div class="possibility dead"><span>ATOM DECAYED</span><b>🐈‍⬛</b><strong>CAT DEAD</strong><small id="dead-chance">50%</small></div>
+        </div>
+        <div class="explain" id="explain"><b>Before measurement</b><p>Quantum theory represents both possible outcomes in the state description.</p></div>
+      </aside>
+    </section>
+
+    <section class="controls">
+      <div class="probability-control">
+        <label for="probability">DECAY CHANCE <strong id="probability-value">50%</strong></label>
+        <input id="probability" type="range" min="10" max="90" value="50" step="10">
+      </div>
+      <button class="primary" id="action" disabled>PLACE ALL PARTS</button>
+    </section>
+
+    <section class="note">
+      <span>!</span><p><strong>Schrödinger's point</strong>This was a criticism of applying quantum superposition directly to everyday objects—not a claim that real cats are literally alive and dead.</p>
+    </section>
+
+    <section class="trial-log">
+      <div><p class="kicker">YOUR RESULTS</p><h2>EXPERIMENT LOG</h2></div>
+      <div class="stats"><span>TRIALS <b id="trials">0</b></span><span>ALIVE <b id="alive-total">0</b></span><span>DEAD <b id="dead-total">0</b></span></div>
+      <div class="log-empty" id="log">Run the experiment to record a measurement.</div>
+    </section>
+  </main>
+
+  <dialog id="lesson-dialog">
+    <div class="dialog-icon" id="dialog-icon">👁</div>
+    <p class="kicker">MEASUREMENT COMPLETE</p>
+    <h2 id="dialog-title">ONE DEFINITE RESULT</h2>
+    <p id="dialog-copy">Opening the box reveals a definite outcome. The experiment does not let us see the system while keeping it unmeasured.</p>
+    <button id="again">RUN ANOTHER TRIAL</button>
+  </dialog>
+
+  <script src="game.js"></script>
+</body>
+</html>
