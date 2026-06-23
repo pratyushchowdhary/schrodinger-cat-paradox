@@ -8,6 +8,7 @@
 @media(min-width:901px){
   html{height:100%;overflow:hidden;overscroll-behavior:none}
   body{position:fixed;inset:0;width:100%;height:100%;overflow:hidden;overscroll-behavior:none}
+  .app-shell{position:fixed;top:0;left:0;width:90.91vw;height:90.91vh;overflow:hidden;transform:scale(1.1);transform-origin:top left}
   .topbar{height:56px;padding:0 3vw}
   .logo{font-size:15px}.round-button{width:32px;height:32px}
   main{position:absolute;inset:56px 3vw 0;width:auto;height:auto;display:grid;grid-template-rows:56px minmax(0,1fr) 48px 40px 48px;gap:6px;padding:6px 0 8px;overflow:hidden}
