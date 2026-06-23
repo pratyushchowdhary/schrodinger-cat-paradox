@@ -11,7 +11,7 @@
   .app-shell{position:fixed;top:0;left:0;width:72.73vw;height:72.73vh;overflow:hidden;transform:scale(1.375);transform-origin:top left}
   .topbar{height:56px;padding:0 3vw}
   .logo{font-size:15px}.round-button{width:32px;height:32px}
-  main{position:absolute;inset:52px 2.2vw 0;width:auto;height:auto;display:grid;grid-template-rows:78px minmax(0,1fr) 48px 40px 48px;gap:6px;padding:2px 0 8px;overflow:hidden}
+  main{position:absolute;inset:56px 2.2vw 0;width:auto;height:auto;display:grid;grid-template-rows:minmax(0,1fr) 48px 40px 48px;gap:6px;padding:6px 0 8px;overflow:hidden}
   .intro{padding:0;display:flex;flex-direction:column;justify-content:flex-start;position:relative;z-index:3}
   .intro .kicker{margin-bottom:3px;font-size:8px}.intro h1{font-size:32px}.intro>p:last-child{margin-top:4px;font-size:9px}
   .game-layout{min-height:0;gap:14px;grid-template-columns:220px minmax(440px,1fr) 230px}
@@ -32,6 +32,20 @@
 }
 @media(min-width:901px) and (max-width:1259px){
   .app-shell{width:90.91vw;height:90.91vh;transform:scale(1.1)}
-  main{inset-inline:2vw;grid-template-rows:68px minmax(0,1fr) 48px 40px 48px}
+  main{inset-inline:2vw;grid-template-rows:minmax(0,1fr) 48px 40px 48px}
   .game-layout{grid-template-columns:200px minmax(360px,1fr) 210px;gap:10px}
+}
+
+.topbar{position:relative}
+.header-lesson{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);text-align:center;white-space:nowrap;pointer-events:none}
+.header-lesson .kicker{font-size:7px;margin:0 0 2px}
+.header-lesson h1{font:900 21px/.9 Nunito,sans-serif;letter-spacing:-.035em;margin:0}
+.box-instruction{position:absolute;z-index:4;top:11px;left:50%;transform:translateX(-50%);width:90%;margin:0;text-align:center;color:#66817c;font-size:9px;line-height:1.25;pointer-events:none}
+@media(min-width:901px){
+  .header-lesson h1{font-size:19px}.header-lesson .kicker{font-size:6px}
+  .box-instruction{top:7px;font-size:7px}
+}
+@media(max-width:700px){
+  .logo span{display:none}.header-lesson h1{font-size:14px}.header-lesson .kicker{font-size:5px}
+  .box-instruction{font-size:7px}
 }

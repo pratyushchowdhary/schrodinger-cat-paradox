@@ -5,23 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#fff8e8">
   <title>Schrödinger Cat Paradox</title>
-  <link rel="stylesheet" href="styles.css?v=7">
+  <link rel="stylesheet" href="styles.css?v=8">
 </head>
 <body>
   <div class="app-shell">
   <header class="topbar">
     <a class="logo" href="#">⚛ <span>SCHRÖDINGER CAT PARADOX</span></a>
+    <div class="header-lesson">
+      <p class="kicker">A QUANTUM THOUGHT EXPERIMENT</p>
+      <h1 id="lesson-title">BUILD THE EXPERIMENT</h1>
+    </div>
     <div class="progress"><span id="step-label">STEP 1 OF 4</span><div><i id="progress-bar"></i></div></div>
     <button class="round-button" id="reset" aria-label="Restart experiment">↻</button>
   </header>
 
   <main>
-    <section class="intro">
-      <p class="kicker">A QUANTUM THOUGHT EXPERIMENT</p>
-      <h1 id="lesson-title">BUILD THE EXPERIMENT</h1>
-      <p id="lesson-copy">Put each part inside the box to connect the chain reaction.</p>
-    </section>
-
     <section class="game-layout">
       <aside class="card tray">
         <div class="card-title"><span>YOUR PARTS</span><small id="parts-count">0 / 5 PLACED</small></div>
@@ -38,6 +36,7 @@
         <div class="box-wrap" id="box-wrap">
           <div class="box-lid" id="box-lid"><span>QUANTUM CHAMBER</span><i></i><i></i><i></i></div>
           <div class="box" id="box">
+            <p class="box-instruction" id="lesson-copy">Put each part inside the box to connect the chain reaction.</p>
             <div class="empty-message" id="empty-message"><strong>+</strong><span>Click parts to place them inside</span></div>
             <div class="machine" id="machine" aria-label="Experiment apparatus">
               <div class="device atom"><b>☢</b><span>ATOM</span></div><i class="wire w1">→</i>
