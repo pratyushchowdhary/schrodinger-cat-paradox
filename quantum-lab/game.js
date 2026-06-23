@@ -20,7 +20,7 @@
     $("sealed-view").classList.toggle("show", phase === 2 || phase === 3);
     $("result-view").classList.toggle("show", phase === 4);
     $("probability").disabled = phase !== 1;
-    $("action").disabled = phase === 1 && placed.size < 5;
+    $("action").disabled = false;
     const labels = ["", "SEAL THE BOX", "START THE TIMER", "OPEN / MEASURE", "NEW TRIAL"];
     $("action").textContent = phase === 1 && placed.size < 5 ? "PLACE ALL PARTS" : labels[phase];
     $("step-label").textContent = `STEP ${phase} OF 4`;
@@ -57,7 +57,8 @@
   });
 
   $("action").addEventListener("click", () => {
-    if (phase === 1) phase = 2;
+    if (phase === 1 && placed.size < 5) names.forEach(name => placed.add(name));
+    else if (phase === 1) phase = 2;
     else if (phase === 2) { phase = 3; outcome = Math.random() < Number($("probability").value) / 100 ? "dead" : "alive"; }
     else if (phase === 3) reveal();
     else resetTrial();
