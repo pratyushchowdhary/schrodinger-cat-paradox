@@ -51,11 +51,11 @@
 }
 
 .chamber-probability{position:absolute;z-index:4;left:8%;right:8%;bottom:7px;display:grid;grid-template-columns:125px 1fr;gap:12px;align-items:center}
-.chamber-probability label{align-items:center;margin:0}.chamber-probability input{margin:0}
+.chamber-probability label{align-items:center;margin:0}.chamber-probability label strong{color:#fff}.chamber-probability input{margin:0;accent-color:#fff}
 .controls{justify-content:center}.controls .primary{grid-column:1/-1;width:min(280px,100%);justify-self:center}
 @media(min-width:901px){
   .chamber-probability{left:6%;right:6%;bottom:5px;grid-template-columns:105px 1fr;gap:9px}
-  .chamber-probability label{font-size:7px}.chamber-probability label strong{font-size:13px}
+  .chamber-probability label{font-size:8px}.chamber-probability label strong{font-size:13px}
   .controls{display:flex;align-items:center;justify-content:center}.controls .primary{width:215px}
 }
 @media(max-width:700px){.chamber-probability{grid-template-columns:95px 1fr;left:5%;right:5%}}
