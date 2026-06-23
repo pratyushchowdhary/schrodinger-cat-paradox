@@ -16,9 +16,9 @@
   .intro .kicker{margin-bottom:3px;font-size:8px}.intro h1{font-size:32px}.intro>p:last-child{margin-top:4px;font-size:9px}
   .game-layout{min-height:0;gap:14px;grid-template-columns:220px minmax(440px,1fr) 230px}
   .card{min-height:0;height:100%}.science-card{grid-column:auto}.tray .parts{height:calc(100% - 36px)}
-  .card-title{height:36px;padding:0 11px;font-size:9px}
-  .parts{padding:7px}.part{min-height:0;height:calc((100% - 16px)/5);margin-bottom:4px;padding:4px;grid-template-columns:38px 1fr}
-  .part>b{width:32px;height:32px;font-size:17px}.part>span{font-size:10px}
+  .card-title{height:36px;padding:0 11px;font-size:9px}.card-title small{font-size:8px}.tray .card-title{font-size:11px}.tray .card-title small{font-size:10px}
+  .parts{padding:7px}.part{min-height:0;height:calc((100% - 16px)/5);margin-bottom:4px;padding:5px;grid-template-columns:42px 1fr}
+  .part>b{width:36px;height:36px;font-size:19px}.part>span{font-size:12px}.part small{font-size:9px}
   .experiment{min-height:0;height:100%;justify-content:center}
   .box-wrap{padding-top:8px}.box-lid{height:32px;margin-inline:18px;gap:20px;font-size:8px}.box-lid.open{transform:rotate(-1deg) translateY(-3px)}
   .box{height:min(35vh,270px);min-height:190px}.box:after{height:32px}.box-feet i{height:8px}
