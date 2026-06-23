@@ -5,25 +5,27 @@
 @media(max-width:700px){.topbar{padding:0 14px}.progress{display:none}.game-layout{grid-template-columns:1fr}.tray,.science-card{grid-column:auto}.parts{display:grid;grid-template-columns:1fr 1fr;gap:8px}.part{margin:0}.experiment{grid-row:1}.box{height:300px}.device span{display:none}.machine{inset:40px 12px 60px}.device b{width:42px;height:58px}.wire{font-size:13px}.controls{grid-template-columns:1fr}.trial-log{grid-template-columns:1fr}.stats{justify-content:space-around}}
 
 /* Desktop game board: every control stays inside one viewport. */
-@media(min-width:1001px){
-  html,body{height:100%;overflow:hidden}
+@media(min-width:901px){
+  html{height:100%;overflow:hidden;overscroll-behavior:none}
+  body{position:fixed;inset:0;width:100%;height:100%;overflow:hidden;overscroll-behavior:none}
   .topbar{height:56px;padding:0 3vw}
   .logo{font-size:15px}.round-button{width:32px;height:32px}
-  main{height:calc(100vh - 56px);display:grid;grid-template-rows:64px minmax(0,1fr) 52px 44px 54px;gap:8px;padding:8px 0 10px}
+  main{position:absolute;inset:56px 3vw 0;width:auto;height:auto;display:grid;grid-template-rows:56px minmax(0,1fr) 48px 40px 48px;gap:6px;padding:6px 0 8px;overflow:hidden}
   .intro{padding:2px 0;display:flex;flex-direction:column;justify-content:center}
   .intro .kicker{margin-bottom:3px;font-size:8px}.intro h1{font-size:32px}.intro>p:last-child{margin-top:4px;font-size:9px}
   .game-layout{min-height:0;gap:14px;grid-template-columns:220px minmax(440px,1fr) 230px}
+  .card{min-height:0;height:100%}.science-card{grid-column:auto}.tray .parts{height:calc(100% - 36px)}
   .card-title{height:36px;padding:0 11px;font-size:9px}
   .parts{padding:7px}.part{min-height:0;height:calc((100% - 16px)/5);margin-bottom:4px;padding:4px;grid-template-columns:38px 1fr}
   .part>b{width:32px;height:32px;font-size:17px}.part>span{font-size:10px}
   .experiment{min-height:0;height:100%;justify-content:center}
   .box-wrap{padding-top:8px}.box-lid{height:32px;margin-inline:18px;gap:20px;font-size:8px}.box-lid.open{transform:rotate(-5deg) translateY(-7px)}
-  .box{height:min(38vh,285px);min-height:220px}.box:after{height:35px}.box-feet i{height:9px}
+  .box{height:min(35vh,270px);min-height:190px}.box:after{height:32px}.box-feet i{height:8px}
   .machine{inset:28px 20px 45px}.device{gap:5px}.device b{width:50px;height:65px;font-size:27px}.device.cat b{width:62px;height:78px;font-size:38px}.device span{font-size:7px}.wire{font-size:17px}
   .empty-message strong{width:50px;height:50px;font-size:27px}.question-orbit{width:75px;height:75px;font-size:38px}.question-orbit:before,.question-orbit:after{width:100px;height:42px}.sealed-view strong,.result-view strong{margin-top:14px;font-size:18px}.result-icon{font-size:62px}
-  .timeline{margin-top:10px}.timeline div{gap:2px}.timeline div span{width:23px;height:23px}.timeline i{width:40px;margin-bottom:11px}.timeline b{font-size:7px}
+  .timeline{margin-top:6px}.timeline div{gap:2px}.timeline div span{width:21px;height:21px}.timeline i{width:40px;margin-bottom:11px}.timeline b{font-size:7px}
   .possibilities{padding:8px}.possibility{min-height:0;height:101px;padding:7px}.possibility>b{font-size:29px}.possibility>strong{font-size:11px}.possibility>small{font-size:14px}.plus{font-size:17px;margin:0}.explain{margin:0 8px 8px;padding:8px}.explain p{line-height:1.35;margin-top:3px}
   .controls{margin:0 auto;max-width:760px;width:100%;grid-template-columns:1fr 215px;gap:25px;align-items:center}.primary{height:44px}.probability-control input{margin-top:6px}
-  .note{height:44px;padding:5px 13px}.note>span{width:27px;height:27px}.note p{line-height:1.25}.note strong{display:inline;margin-right:8px}
+  .note{height:40px;padding:4px 12px}.note>span{width:25px;height:25px}.note p{line-height:1.2}.note strong{display:inline;margin-right:8px}
   .trial-log{margin:0;grid-template-columns:170px 210px 1fr;gap:16px}.trial-log .kicker{display:none}.trial-log h2{font-size:17px}.stats{gap:22px}.stats b{display:inline;font-size:17px;margin:0 0 0 5px}.log-empty{padding:9px 12px;line-height:1.45;max-height:48px;overflow:hidden}
 }
