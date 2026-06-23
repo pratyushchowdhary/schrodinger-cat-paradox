@@ -1,0 +1,1660 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/jcnldj",
+    "id": "jcnldj",
+    "slide": 1,
+    "layoutId": "f0aec34f-9759-442e-936a-374e3aa31cc0",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "92724699-fbe8-4ce9-a549-65751e21c544",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Aptos",
+      "Aptos Display"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "f0aec34f-9759-442e-936a-374e3aa31cc0",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "92724699-fbe8-4ce9-a549-65751e21c544",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "92724699-fbe8-4ce9-a549-65751e21c544",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bulwval8",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#FBF8FF",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0fepkzup",
+      "id": "2",
+      "bbox": [
+        0,
+        0,
+        1280,
+        72
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#C6CEC8",
+      "lineWidth": 1
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/p0bi9s36",
+      "id": "3",
+      "bbox": [
+        56,
+        22,
+        390,
+        24
+      ],
+      "geometry": "rect",
+      "text": "NourishCo Research & Insights",
+      "textPreview": "NourishCo Research & Insights",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "Aptos Display",
+        "color": "#063728",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "NourishCo Research & Insights"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "NourishCo Research & Insights",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Aptos Display",
+            "color": "#063728",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "NourishCo Research & Insights",
+              "fontSize": 18,
+              "typeface": "Aptos Display",
+              "color": "#063728",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ixczed8v",
+      "id": "4",
+      "bbox": [
+        56,
+        104,
+        900,
+        44
+      ],
+      "geometry": "rect",
+      "text": "Research & Insights",
+      "textPreview": "Research & Insights",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 32,
+        "typeface": "Aptos Display",
+        "color": "#101426",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Research & Insights"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Research & Insights",
+          "resolvedTextStyle": {
+            "fontSize": 32,
+            "typeface": "Aptos Display",
+            "color": "#101426",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Research & Insights",
+              "fontSize": 32,
+              "typeface": "Aptos Display",
+              "color": "#101426",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bi9s36hc",
+      "id": "5",
+      "bbox": [
+        58,
+        150,
+        980,
+        28
+      ],
+      "geometry": "rect",
+      "text": "Scope for the NourishCo supplier onboarding and compliance platform.",
+      "textPreview": "Scope for the NourishCo supplier onboarding and compliance platform.",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "Aptos",
+        "color": "#59645F",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Scope for the NourishCo supplier onboarding and compliance platform."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Scope for the NourishCo supplier onboarding and compliance platform.",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Aptos",
+            "color": "#59645F",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Scope for the NourishCo supplier onboarding and compliance platform.",
+              "fontSize": 14,
+              "typeface": "Aptos",
+              "color": "#59645F"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/032lszqt",
+      "id": "6",
+      "bbox": [
+        82,
+        214,
+        1040,
+        86
+      ],
+      "geometry": "rect",
+      "text": "The core problem is not document upload. It is reusable supplier identity, compliance clearance, and operational visibility across multiple brands.",
+      "textPreview": "The core problem is not document upload. It is reusable supplier identity, compliance clearance, and operational visibility across multip...",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 28,
+        "typeface": "Aptos Display",
+        "color": "#063728",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The core problem is not document upload. It is reusable supplier identity,"
+          },
+          {
+            "index": 2,
+            "text": "compliance clearance, and operational visibility across multiple brands."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The core problem is not document upload. It is reusable supplier identity, compliance clearance, and operational visibility across multiple brands.",
+          "resolvedTextStyle": {
+            "fontSize": 28,
+            "typeface": "Aptos Display",
+            "color": "#063728",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "The core problem is not document upload. It is reusable supplier identity, compliance clearance, and operational visibility across multiple brands.",
+              "fontSize": 28,
+              "typeface": "Aptos Display",
+              "color": "#063728",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tovahoza",
+      "id": "7",
+      "bbox": [
+        82,
+        350,
+        250,
+        142
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#C6CEC8",
+      "lineWidth": 1.1
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/il0rqd4v",
+      "id": "8",
+      "bbox": [
+        82,
+        350,
+        5,
+        142
+      ],
+      "geometry": "rect",
+      "fillColor": "#2F7D55",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/b6xkf6dc",
+      "id": "9",
+      "bbox": [
+        104,
+        368,
+        206,
+        26
+      ],
+      "geometry": "rect",
+      "text": "Stakeholders",
+      "textPreview": "Stakeholders",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Aptos Display",
+        "color": "#101426",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Stakeholders"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Stakeholders",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Aptos Display",
+            "color": "#101426",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Stakeholders",
+              "fontSize": 17,
+              "typeface": "Aptos Display",
+              "color": "#101426",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/32lszqtc",
+      "id": "10",
+      "bbox": [
+        104,
+        405,
+        206,
+        72
+      ],
+      "geometry": "rect",
+      "text": "Suppliers, brand procurement teams, compliance, quality/regulatory, central operations, and leadership.",
+      "textPreview": "Suppliers, brand procurement teams, compliance, quality/regulatory, central operations, and leadership.",
+      "resolvedFontSize": 12.51,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 12.51,
+        "typeface": "Aptos",
+        "color": "#59645F",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Suppliers, brand procurement"
+          },
+          {
+            "index": 2,
+            "text": "teams, compliance,"
+          },
+          {
+            "index": 3,
+            "text": "quality/regulatory, central"
+          },
+          {
+            "index": 4,
+            "text": "operations, and leadership."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Suppliers, brand procurement teams, compliance, quality/regulatory, central operations, and leadership.",
+          "resolvedTextStyle": {
+            "fontSize": 12.51,
+            "typeface": "Aptos",
+            "color": "#59645F",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Suppliers, brand procurement teams, compliance, quality/regulatory, central operations, and leadership.",
+              "fontSize": 12.51,
+              "typeface": "Aptos",
+              "color": "#59645F"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ahoza1gv",
+      "id": "11",
+      "bbox": [
+        360,
+        350,
+        250,
+        142
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#C6CEC8",
+      "lineWidth": 1.1
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l87ed8ba",
+      "id": "12",
+      "bbox": [
+        360,
+        350,
+        5,
+        142
+      ],
+      "geometry": "rect",
+      "fillColor": "#2F67D8",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sneloj2t",
+      "id": "13",
+      "bbox": [
+        382,
+        368,
+        206,
+        26
+      ],
+      "geometry": "rect",
+      "text": "User Segments",
+      "textPreview": "User Segments",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Aptos Display",
+        "color": "#101426",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "User Segments"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "User Segments",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Aptos Display",
+            "color": "#101426",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "User Segments",
+              "fontSize": 17,
+              "typeface": "Aptos Display",
+              "color": "#101426",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3ex0nuxc",
+      "id": "14",
+      "bbox": [
+        382,
+        405,
+        206,
+        72
+      ],
+      "geometry": "rect",
+      "text": "New suppliers, returning suppliers, internal reviewers, procurement managers, and compliance leadership.",
+      "textPreview": "New suppliers, returning suppliers, internal reviewers, procurement managers, and compliance leadership.",
+      "resolvedFontSize": 12.51,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 12.51,
+        "typeface": "Aptos",
+        "color": "#59645F",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "New suppliers, returning suppliers,"
+          },
+          {
+            "index": 2,
+            "text": "internal reviewers, procurement"
+          },
+          {
+            "index": 3,
+            "text": "managers, and compliance"
+          },
+          {
+            "index": 4,
+            "text": "leadership."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "New suppliers, returning suppliers, internal reviewers, procurement managers, and compliance leadership.",
+          "resolvedTextStyle": {
+            "fontSize": 12.51,
+            "typeface": "Aptos",
+            "color": "#59645F",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "New suppliers, returning suppliers, internal reviewers, procurement managers, and compliance leadership.",
+              "fontSize": 12.51,
+              "typeface": "Aptos",
+              "color": "#59645F"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/at47y1kr",
+      "id": "15",
+      "bbox": [
+        638,
+        350,
+        250,
+        142
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#C6CEC8",
+      "lineWidth": 1.1
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lkjm1cfa",
+      "id": "16",
+      "bbox": [
+        638,
+        350,
+        5,
+        142
+      ],
+      "geometry": "rect",
+      "fillColor": "#C71F1F",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/szqtcj6t",
+      "id": "17",
+      "bbox": [
+        660,
+        368,
+        206,
+        26
+      ],
+      "geometry": "rect",
+      "text": "Pain Points",
+      "textPreview": "Pain Points",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Aptos Display",
+        "color": "#101426",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Pain Points"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Pain Points",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Aptos Display",
+            "color": "#101426",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Pain Points",
+              "fontSize": 17,
+              "typeface": "Aptos Display",
+              "color": "#101426",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3itgfmlk",
+      "id": "18",
+      "bbox": [
+        660,
+        405,
+        206,
+        72
+      ],
+      "geometry": "rect",
+      "text": "Duplicate approvals, scattered documents, inconsistent supplier data, manual certification tracking, and poor risk visibility.",
+      "textPreview": "Duplicate approvals, scattered documents, inconsistent supplier data, manual certification tracking, and poor risk visibility.",
+      "resolvedFontSize": 12.51,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 12.51,
+        "typeface": "Aptos",
+        "color": "#59645F",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Duplicate approvals, scattered"
+          },
+          {
+            "index": 2,
+            "text": "documents, inconsistent supplier"
+          },
+          {
+            "index": 3,
+            "text": "data, manual certification tracking,"
+          },
+          {
+            "index": 4,
+            "text": "and poor risk visibility."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Duplicate approvals, scattered documents, inconsistent supplier data, manual certification tracking, and poor risk visibility.",
+          "resolvedTextStyle": {
+            "fontSize": 12.51,
+            "typeface": "Aptos",
+            "color": "#59645F",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Duplicate approvals, scattered documents, inconsistent supplier data, manual certification tracking, and poor risk visibility.",
+              "fontSize": 12.51,
+              "typeface": "Aptos",
+              "color": "#59645F"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ex0nuxc3",
+      "id": "19",
+      "bbox": [
+        916,
+        350,
+        250,
+        142
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#C6CEC8",
+      "lineWidth": 1.1
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/i9s36hcr",
+      "id": "20",
+      "bbox": [
+        916,
+        350,
+        5,
+        142
+      ],
+      "geometry": "rect",
+      "fillColor": "#9A5B00",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bulwval8",
+      "id": "21",
+      "bbox": [
+        938,
+        368,
+        206,
+        26
+      ],
+      "geometry": "rect",
+      "text": "Market View",
+      "textPreview": "Market View",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Aptos Display",
+        "color": "#101426",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Market View"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Market View",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Aptos Display",
+            "color": "#101426",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Market View",
+              "fontSize": 17,
+              "typeface": "Aptos Display",
+              "color": "#101426",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0fepkzup",
+      "id": "22",
+      "bbox": [
+        938,
+        405,
+        206,
+        72
+      ],
+      "geometry": "rect",
+      "text": "The market is crowded in procurement suites, but the focused wedge is supplier onboarding plus compliance operations.",
+      "textPreview": "The market is crowded in procurement suites, but the focused wedge is supplier onboarding plus compliance operations.",
+      "resolvedFontSize": 12.51,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 12.51,
+        "typeface": "Aptos",
+        "color": "#59645F",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The market is crowded in"
+          },
+          {
+            "index": 2,
+            "text": "procurement suites, but the focused"
+          },
+          {
+            "index": 3,
+            "text": "wedge is supplier onboarding plus"
+          },
+          {
+            "index": 4,
+            "text": "compliance operations."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The market is crowded in procurement suites, but the focused wedge is supplier onboarding plus compliance operations.",
+          "resolvedTextStyle": {
+            "fontSize": 12.51,
+            "typeface": "Aptos",
+            "color": "#59645F",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "The market is crowded in procurement suites, but the focused wedge is supplier onboarding plus compliance operations.",
+              "fontSize": 12.51,
+              "typeface": "Aptos",
+              "color": "#59645F"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/p0bi9s36",
+      "id": "23",
+      "bbox": [
+        250,
+        548,
+        190,
+        26
+      ],
+      "geometry": "rect",
+      "fillColor": "#E5F6ED",
+      "lineColor": "#E5F6ED",
+      "lineWidth": 1
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ixczed8v",
+      "id": "24",
+      "bbox": [
+        260,
+        554,
+        170,
+        14
+      ],
+      "geometry": "rect",
+      "text": "Supplier-facing simplicity",
+      "textPreview": "Supplier-facing simplicity",
+      "resolvedFontSize": 9.51,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 9.51,
+        "typeface": "Aptos",
+        "color": "#2F7D55",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Supplier-facing simplicity"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Supplier-facing simplicity",
+          "resolvedTextStyle": {
+            "fontSize": 9.51,
+            "typeface": "Aptos",
+            "color": "#2F7D55",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Supplier-facing simplicity",
+              "fontSize": 9.51,
+              "typeface": "Aptos",
+              "color": "#2F7D55",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bi9s36hc",
+      "id": "25",
+      "bbox": [
+        458,
+        548,
+        180,
+        26
+      ],
+      "geometry": "rect",
+      "fillColor": "#F2F1FF",
+      "lineColor": "#F2F1FF",
+      "lineWidth": 1
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/032lszqt",
+      "id": "26",
+      "bbox": [
+        468,
+        554,
+        160,
+        14
+      ],
+      "geometry": "rect",
+      "text": "Internal workflow rigor",
+      "textPreview": "Internal workflow rigor",
+      "resolvedFontSize": 9.51,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 9.51,
+        "typeface": "Aptos",
+        "color": "#2F67D8",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Internal workflow rigor"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Internal workflow rigor",
+          "resolvedTextStyle": {
+            "fontSize": 9.51,
+            "typeface": "Aptos",
+            "color": "#2F67D8",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Internal workflow rigor",
+              "fontSize": 9.51,
+              "typeface": "Aptos",
+              "color": "#2F67D8",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 27,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tovahoza",
+      "id": "27",
+      "bbox": [
+        656,
+        548,
+        152,
+        26
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFF3D4",
+      "lineColor": "#FFF3D4",
+      "lineWidth": 1
+    },
+    {
+      "order": 28,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/il0rqd4v",
+      "id": "28",
+      "bbox": [
+        666,
+        554,
+        132,
+        14
+      ],
+      "geometry": "rect",
+      "text": "AI-assisted triage",
+      "textPreview": "AI-assisted triage",
+      "resolvedFontSize": 9.51,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 9.51,
+        "typeface": "Aptos",
+        "color": "#9A5B00",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "AI-assisted triage"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "AI-assisted triage",
+          "resolvedTextStyle": {
+            "fontSize": 9.51,
+            "typeface": "Aptos",
+            "color": "#9A5B00",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "AI-assisted triage",
+              "fontSize": 9.51,
+              "typeface": "Aptos",
+              "color": "#9A5B00",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 29,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/b6xkf6dc",
+      "id": "29",
+      "bbox": [
+        826,
+        548,
+        170,
+        26
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFE8E6",
+      "lineColor": "#FFE8E6",
+      "lineWidth": 1
+    },
+    {
+      "order": 30,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hwfyxobm",
+      "id": "30",
+      "bbox": [
+        836,
+        554,
+        150,
+        14
+      ],
+      "geometry": "rect",
+      "text": "Human approval remains",
+      "textPreview": "Human approval remains",
+      "resolvedFontSize": 9.51,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 9.51,
+        "typeface": "Aptos",
+        "color": "#C71F1F",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Human approval remains"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Human approval remains",
+          "resolvedTextStyle": {
+            "fontSize": 9.51,
+            "typeface": "Aptos",
+            "color": "#C71F1F",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Human approval remains",
+              "fontSize": 9.51,
+              "typeface": "Aptos",
+              "color": "#C71F1F",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 31,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/obm58z25",
+      "id": "31",
+      "bbox": [
+        82,
+        612,
+        1084,
+        34
+      ],
+      "geometry": "rect",
+      "fillColor": "#EEF4F0",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 32,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zqtcj6to",
+      "id": "32",
+      "bbox": [
+        102,
+        621,
+        1000,
+        18
+      ],
+      "geometry": "rect",
+      "text": "Output: a research foundation for PRD scope, prototype screens, AI workflows, and MVP prioritization.",
+      "textPreview": "Output: a research foundation for PRD scope, prototype screens, AI workflows, and MVP prioritization.",
+      "resolvedFontSize": 12.51,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 12.51,
+        "typeface": "Aptos",
+        "color": "#063728",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Output: a research foundation for PRD scope, prototype screens, AI workflows, and MVP prioritization."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Output: a research foundation for PRD scope, prototype screens, AI workflows, and MVP prioritization.",
+          "resolvedTextStyle": {
+            "fontSize": 12.51,
+            "typeface": "Aptos",
+            "color": "#063728",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Output: a research foundation for PRD scope, prototype screens, AI workflows, and MVP prioritization.",
+              "fontSize": 12.51,
+              "typeface": "Aptos",
+              "color": "#063728",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 33,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/65wjudg7",
+      "id": "33",
+      "bbox": [
+        56,
+        676,
+        1168,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#C6CEC8",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 34,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hk3q5o7q",
+      "id": "34",
+      "bbox": [
+        58,
+        688,
+        720,
+        16
+      ],
+      "geometry": "rect",
+      "text": "Fictional case study. Public market numbers are directional proxies, not exact NourishCo TAM.",
+      "textPreview": "Fictional case study. Public market numbers are directional proxies, not exact NourishCo TAM.",
+      "resolvedFontSize": 8.51,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 8.51,
+        "typeface": "Aptos",
+        "color": "#59645F",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Fictional case study. Public market numbers are directional proxies, not exact NourishCo TAM."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Fictional case study. Public market numbers are directional proxies, not exact NourishCo TAM.",
+          "resolvedTextStyle": {
+            "fontSize": 8.51,
+            "typeface": "Aptos",
+            "color": "#59645F",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Fictional case study. Public market numbers are directional proxies, not exact NourishCo TAM.",
+              "fontSize": 8.51,
+              "typeface": "Aptos",
+              "color": "#59645F"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 35,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/oza1gvy9",
+      "id": "35",
+      "bbox": [
+        1180,
+        686,
+        40,
+        18
+      ],
+      "geometry": "rect",
+      "text": "01",
+      "textPreview": "01",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 10,
+        "typeface": "Aptos",
+        "color": "#59645F",
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "01"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "01",
+          "resolvedTextStyle": {
+            "fontSize": 10,
+            "typeface": "Aptos",
+            "color": "#59645F",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "01",
+              "fontSize": 10,
+              "typeface": "Aptos",
+              "color": "#59645F"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

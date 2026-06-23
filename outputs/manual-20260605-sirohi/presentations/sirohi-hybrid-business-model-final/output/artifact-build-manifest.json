@@ -1,0 +1,27 @@
+{
+  "output": "/Users/pcx/Downloads/Check/outputs/manual-20260605-sirohi/presentations/sirohi-hybrid-business-model-final/output/sirohi-hybrid-business-model.pptx",
+  "outputBytes": 20975,
+  "slideCount": 1,
+  "slideSize": {
+    "width": 1280,
+    "height": 720
+  },
+  "previewDir": "/Users/pcx/Downloads/Check/outputs/manual-20260605-sirohi/presentations/sirohi-hybrid-business-model-final/preview",
+  "previewPaths": [
+    "/Users/pcx/Downloads/Check/outputs/manual-20260605-sirohi/presentations/sirohi-hybrid-business-model-final/preview/slide-01.png"
+  ],
+  "layoutDir": "/Users/pcx/Downloads/Check/outputs/manual-20260605-sirohi/presentations/sirohi-hybrid-business-model-final/layout/final",
+  "layoutResults": [
+    {
+      "layoutPath": "/Users/pcx/Downloads/Check/outputs/manual-20260605-sirohi/presentations/sirohi-hybrid-business-model-final/layout/final/slide-01.layout.json"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "requestedSlideNumber": 1,
+      "modulePath": "/Users/pcx/Downloads/Check/outputs/manual-20260605-sirohi/presentations/sirohi-hybrid-business-model-final/slides/slide-01.mjs",
+      "exportName": "slide01"
+    }
+  ]
+}

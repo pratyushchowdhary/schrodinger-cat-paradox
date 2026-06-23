@@ -1,0 +1,28 @@
+{
+  "output": "/Users/pcx/Downloads/Check/outputs/manual-20260605-sirohi-beat-reference/presentations/sirohi-hybrid-wing-model/output/sirohi-hybrid-business-model-wing-onepager.pptx",
+  "outputBytes": 18066,
+  "slideCount": 1,
+  "slideSize": {
+    "width": 1280,
+    "height": 720
+  },
+  "previewDir": "/Users/pcx/Downloads/Check/outputs/manual-20260605-sirohi-beat-reference/presentations/sirohi-hybrid-wing-model/preview",
+  "previewPaths": [
+    "/Users/pcx/Downloads/Check/outputs/manual-20260605-sirohi-beat-reference/presentations/sirohi-hybrid-wing-model/preview/slide-01.png"
+  ],
+  "layoutDir": "/Users/pcx/Downloads/Check/outputs/manual-20260605-sirohi-beat-reference/presentations/sirohi-hybrid-wing-model/layout/final",
+  "layoutResults": [
+    {
+      "layoutPath": "/Users/pcx/Downloads/Check/outputs/manual-20260605-sirohi-beat-reference/presentations/sirohi-hybrid-wing-model/layout/final/slide-01.layout.json"
+    }
+  ],
+  "contactSheet": "/Users/pcx/Downloads/Check/outputs/manual-20260605-sirohi-beat-reference/presentations/sirohi-hybrid-wing-model/preview/contact-sheet.png",
+  "slides": [
+    {
+      "index": 1,
+      "requestedSlideNumber": 1,
+      "modulePath": "/Users/pcx/Downloads/Check/outputs/manual-20260605-sirohi-beat-reference/presentations/sirohi-hybrid-wing-model/slides/slide-01.mjs",
+      "exportName": "slide01"
+    }
+  ]
+}

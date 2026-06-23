@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Founder Scout",
+  "version": "0.1.0",
+  "description": "Extract startup details, current founders, and inferred founder emails from the active website.",
+  "permissions": [
+    "activeTab",
+    "clipboardWrite",
+    "scripting",
+    "sidePanel",
+    "tabs"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "action": {
+    "default_title": "Open Founder Scout"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  }
+}

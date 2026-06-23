@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NourishCo Supplier Application</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="portal-shell">
+      <aside class="side-panel">
+        <div class="brand-lockup">
+          <span class="brand-mark">N</span>
+          <div>
+            <strong>NourishCo</strong>
+            <span>Supplier portal</span>
+          </div>
+        </div>
+
+        <nav class="progress-nav" aria-label="Application progress">
+          <button class="progress-item active" type="button" data-jump="0"><span>1</span>Welcome</button>
+          <button class="progress-item" type="button" data-jump="1"><span>2</span>Business basics</button>
+          <button class="progress-item" type="button" data-jump="2"><span>3</span>Documents</button>
+          <button class="progress-item" type="button" data-jump="3"><span>4</span>Review & submit</button>
+        </nav>
+
+        <section class="side-note">
+          <p class="eyebrow">Why one profile?</p>
+          <strong>Apply across brands without duplicate onboarding.</strong>
+          <span>Your verified profile can be reused for PureSip, Harvest Bites, DailyGlow, QuickEats, and EcoPack.</span>
+        </section>
+      </aside>
+
+      <section class="main-stage">
+        <header class="topbar">
+          <span class="save-state">Draft saved</span>
+          <button class="ghost-action" type="button">Need help?</button>
+        </header>
+
+        <section class="screen active welcome-screen" data-screen="0" aria-label="Welcome">
+          <div class="content-card hero-card">
+            <p class="eyebrow">Supplier onboarding</p>
+            <h1>Bring your business to NourishCo</h1>
+            <p>Create one supplier profile, apply across NourishCo brands, and track your compliance status in one place.</p>
+            <div class="verify-block">
+              <span>Start with profile verification</span>
+              <div class="verify-actions" aria-label="Profile verification options">
+                <button class="verify-action" type="button" data-next><span>G</span>Google</button>
+                <button class="verify-action linkedin" type="button" data-next><span>in</span>LinkedIn</button>
+                <button class="verify-action apple" type="button" data-next><span></span>Apple</button>
+              </div>
+            </div>
+            <div class="hero-actions">
+              <button class="primary-action" type="button" data-next>Start application</button>
+              <button class="secondary-action" type="button">Continue existing application</button>
+            </div>
+          </div>
+
+          <div class="value-grid">
+            <article>
+              <strong>One reusable profile</strong>
+              <span>No duplicate onboarding when applying to another brand.</span>
+            </article>
+            <article>
+              <strong>AI-assisted pre-fill</strong>
+              <span>Upload documents and review extracted business details.</span>
+            </article>
+            <article>
+              <strong>Clear compliance status</strong>
+              <span>See what is accepted, missing, or still in review.</span>
+            </article>
+          </div>
+
+          <section class="help-strip" aria-label="How NourishCo helps">
+            <p class="eyebrow">We’ll help with</p>
+            <ul>
+              <li>Extracting business and tax details</li>
+              <li>Finding expired or missing documents</li>
+              <li>Checking name and address mismatches</li>
+              <li>Preparing a compliance review summary</li>
+            </ul>
+          </section>
+        </section>
+
+        <section class="screen" data-screen="1" aria-label="Business basics">
+          <div class="content-card">
+            <div class="screen-heading">
+              <p class="eyebrow">Step 1 of 4</p>
+              <h2>Let’s start with your business</h2>
+              <p>We’ll use this to create your draft supplier profile and check for existing records.</p>
+            </div>
+
+            <form class="form-grid">
+              <label>
+                <span>Legal business name</span>
+                <input id="businessName" type="text" value="GreenLeaf Ingredients Pvt Ltd">
+              </label>
+              <label>
+                <span>Country / region</span>
+                <select id="region">
+                  <option>India</option>
+                  <option>United States</option>
+                  <option>United Kingdom</option>
+                  <option>Singapore</option>
+                </select>
+              </label>
+              <label>
+                <span>What do you supply?</span>
+                <select id="category">
+                  <option>Ingredients</option>
+                  <option>Packaging</option>
+                  <option>Logistics</option>
+                  <option>Co-manufacturing</option>
+                  <option>Business services</option>
+                </select>
+              </label>
+            </form>
+
+            <div class="actions split">
+              <button class="secondary-action" type="button" data-prev>Back</button>
+              <button class="primary-action" type="button" data-next>Continue</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="screen" data-screen="2" aria-label="Document upload">
+          <div class="content-card">
+            <div class="screen-heading">
+              <p class="eyebrow">Step 2 of 4</p>
+              <h2>Upload your business documents</h2>
+              <p>Upload the documents you already have. We’ll read them, pre-fill your profile, and show anything missing based on your brands, category, and region.</p>
+            </div>
+
+            <div class="upload-layout">
+              <div class="upload-zone" role="button" tabindex="0" id="uploadZone">
+                <span class="upload-icon">↑</span>
+                <strong>Drop files here or browse</strong>
+                <small>PDF, PNG, JPG up to 25 MB each</small>
+              </div>
+
+              <div class="document-groups">
+                <article class="doc-card selected">
+                  <span>Business & tax</span>
+                  <strong>Registration, GST/VAT, trade license</strong>
+                </article>
+                <article class="doc-card selected">
+                  <span>Compliance licenses</span>
+                  <strong>Food safety, manufacturing, import/export</strong>
+                </article>
+                <article class="doc-card">
+                  <span>Quality certifications</span>
+                  <strong>ISO, HACCP, GMP, audit reports</strong>
+                </article>
+                <article class="doc-card">
+                  <span>Financial verification</span>
+                  <strong>Bank proof, tax forms, financial statements</strong>
+                </article>
+              </div>
+            </div>
+
+            <div class="actions split">
+              <button class="secondary-action" type="button" data-prev>Back</button>
+              <button class="primary-action" type="button" data-next>Analyze documents</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="screen" data-screen="3" aria-label="Review pre-filled profile">
+          <div class="content-card">
+            <div class="screen-heading">
+              <p class="eyebrow">Step 3 of 4</p>
+              <h2>Review your pre-filled profile</h2>
+              <p>NourishCo AI extracted these details. Please review every field before submitting.</p>
+            </div>
+
+            <div class="ai-banner">
+              <span>AI</span>
+              <p>2 documents read. 6 fields pre-filled. 1 missing item found for ingredients suppliers in India.</p>
+            </div>
+
+            <div class="review-list">
+              <label>
+                <span>Legal business name</span>
+                <input type="text" value="GreenLeaf Ingredients Pvt Ltd">
+              </label>
+              <label>
+                <span>Tax ID</span>
+                <input type="text" value="29AAGCG2145P1Z8">
+              </label>
+              <label>
+                <span>Registered address</span>
+                <input type="text" value="Plot 18, Food Park Road, Pune">
+              </label>
+              <label class="warning-field">
+                <span>Missing requirement</span>
+                <input type="text" value="Latest quality audit report required">
+              </label>
+            </div>
+
+            <div class="confirmation">
+              <input id="confirmDetails" type="checkbox">
+              <label for="confirmDetails">I reviewed the extracted details and confirm they are accurate.</label>
+            </div>
+
+            <div class="actions split">
+              <button class="secondary-action" type="button" data-prev>Back</button>
+              <button class="primary-action" type="button" id="submitApplication">Submit application</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="screen" data-screen="4" aria-label="Submitted">
+          <div class="content-card success-card">
+            <span class="success-mark">✓</span>
+            <p class="eyebrow">Application submitted</p>
+            <h2>Your profile is ready for review</h2>
+            <p>Compliance reviewers can now check your documents. We’ll notify you if anything else is needed.</p>
+            <div class="status-card">
+              <strong>Current status</strong>
+              <span>In compliance review</span>
+            </div>
+            <button class="primary-action" type="button" data-reset>Start over</button>
+          </div>
+        </section>
+      </section>
+
+    </main>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="script.js"></script>
+  </body>
+</html>

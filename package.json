@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "founder-scout:server": "node founder-scout-extension/backend/server.js"
+  }
+}

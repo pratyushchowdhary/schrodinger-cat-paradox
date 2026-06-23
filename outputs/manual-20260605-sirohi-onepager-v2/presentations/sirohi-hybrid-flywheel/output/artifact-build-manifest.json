@@ -1,0 +1,28 @@
+{
+  "output": "/Users/pcx/Downloads/Check/outputs/manual-20260605-sirohi-onepager-v2/presentations/sirohi-hybrid-flywheel/output/sirohi-hybrid-business-model-flywheel-onepager.pptx",
+  "outputBytes": 16827,
+  "slideCount": 1,
+  "slideSize": {
+    "width": 1280,
+    "height": 720
+  },
+  "previewDir": "/Users/pcx/Downloads/Check/outputs/manual-20260605-sirohi-onepager-v2/presentations/sirohi-hybrid-flywheel/preview",
+  "previewPaths": [
+    "/Users/pcx/Downloads/Check/outputs/manual-20260605-sirohi-onepager-v2/presentations/sirohi-hybrid-flywheel/preview/slide-01.png"
+  ],
+  "layoutDir": "/Users/pcx/Downloads/Check/outputs/manual-20260605-sirohi-onepager-v2/presentations/sirohi-hybrid-flywheel/layout/final",
+  "layoutResults": [
+    {
+      "layoutPath": "/Users/pcx/Downloads/Check/outputs/manual-20260605-sirohi-onepager-v2/presentations/sirohi-hybrid-flywheel/layout/final/slide-01.layout.json"
+    }
+  ],
+  "contactSheet": "/Users/pcx/Downloads/Check/outputs/manual-20260605-sirohi-onepager-v2/presentations/sirohi-hybrid-flywheel/preview/contact-sheet.png",
+  "slides": [
+    {
+      "index": 1,
+      "requestedSlideNumber": 1,
+      "modulePath": "/Users/pcx/Downloads/Check/outputs/manual-20260605-sirohi-onepager-v2/presentations/sirohi-hybrid-flywheel/slides/slide-01.mjs",
+      "exportName": "slide01"
+    }
+  ]
+}

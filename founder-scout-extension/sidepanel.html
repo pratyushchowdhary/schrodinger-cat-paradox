@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Founder Scout</title>
+    <link rel="stylesheet" href="sidepanel.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="kicker">Founder Scout</p>
+          <p class="domain" id="domain">No page selected</p>
+        </div>
+      </header>
+
+      <button class="extract-button" id="extractButton" type="button">
+        Extract
+      </button>
+
+      <section class="status" id="status" aria-live="polite">
+        <span class="status-dot"></span>
+        <span id="statusText">Ready</span>
+      </section>
+
+      <section class="results" id="results" hidden>
+        <article class="result-block company-block">
+          <p class="section-label">Company</p>
+          <h2 id="companyName">Unknown company</h2>
+          <dl class="facts">
+            <div>
+              <dt>Formed</dt>
+              <dd id="formed">Not found</dd>
+            </div>
+            <div>
+              <dt>Website</dt>
+              <dd><a id="website" href="#" target="_blank" rel="noreferrer">Unknown</a></dd>
+            </div>
+          </dl>
+        </article>
+
+        <article class="result-block">
+          <p class="section-label">What they do</p>
+          <p class="summary" id="summary">No summary found.</p>
+        </article>
+
+        <article class="result-block">
+          <p class="section-label">Founders</p>
+          <div class="founder-list" id="founderList"></div>
+          <p class="empty-state" id="founderEmpty">No founder identified from public page evidence.</p>
+          <div class="email-copy-row" id="emailCopyRow" hidden>
+            <p id="emailList"></p>
+            <button id="copyEmailsButton" type="button">Copy</button>
+          </div>
+        </article>
+      </section>
+
+      <footer id="footer">
+        Inferred emails are guesses, not verified addresses.
+      </footer>
+    </main>
+
+    <template id="founderTemplate">
+      <p class="founder-line"></p>
+    </template>
+
+    <script src="sidepanel.js"></script>
+  </body>
+</html>

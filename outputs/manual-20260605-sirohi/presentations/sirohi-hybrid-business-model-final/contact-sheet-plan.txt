@@ -1,0 +1,6 @@
+One-slide deck.
+Macro layout: operating model infographic with three zones:
+1. Foundation role and process lane.
+2. Procurement, invoice, product transfer, and payment bridge.
+3. SFPL role, go-to-market lane, customer revenue loop.
+Bottom band captures value created and joint ecosystem thesis.

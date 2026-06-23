@@ -1,0 +1,11 @@
+Slide size: 1280x720.
+Background: warm paper.
+Typography: Aptos for all editable text.
+Palette: ink, warm paper, forest green for Foundation, terracotta for SFPL, amber for transaction/cost bridge, blue for transfer arrows.
+Diagram grammar: equal-role process boxes; numbered chips; labeled arrows; central transaction bridge.
+Connector grammar: green for Foundation/product/money recovery, blue for product transfer, terracotta for customer/revenue cycle.
+Container grammar: lane headers and role sidebars only; no decorative card grid.
+Footer grammar: bottom thesis statement on ink band.
+Brand policy: text-only brand cue; no fabricated logo.
+Allowed layout families: one-slide operating model infographic.
+Banned motifs: fake logos, decorative icons, stock imagery, gradient blobs.

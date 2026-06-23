@@ -1,0 +1,11 @@
+No external reference deck supplied.
+
+Design target:
+- Simple, elegant, infographic-led.
+- Two-slide story, not a dense operating manual.
+- Editable PowerPoint shapes and text.
+
+Anti-patterns avoided:
+- Crowded one-slide process map.
+- Decorative fake logo or unofficial brand mark.
+- Generic card-grid-only layout.
