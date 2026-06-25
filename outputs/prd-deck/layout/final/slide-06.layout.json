@@ -1,0 +1,1462 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/g9lf2r",
+    "id": "g9lf2r",
+    "slide": 6,
+    "layoutId": "9b47eb97-056d-424c-a08c-e75b52d39063",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "5a8bf099-a9a2-402d-920a-8d39bcfc2b15",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Aptos",
+      "Aptos Display"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "9b47eb97-056d-424c-a08c-e75b52d39063",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "5a8bf099-a9a2-402d-920a-8d39bcfc2b15",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "5a8bf099-a9a2-402d-920a-8d39bcfc2b15",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/svu9knih",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#FBF8FF",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/za1gvy90",
+      "id": "2",
+      "bbox": [
+        0,
+        0,
+        1280,
+        72
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#C6CEC8",
+      "lineWidth": 1
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ap4r65wj",
+      "id": "3",
+      "bbox": [
+        56,
+        22,
+        280,
+        24
+      ],
+      "geometry": "rect",
+      "text": "NourishCo PRD",
+      "textPreview": "NourishCo PRD",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "Aptos Display",
+        "color": "#063728",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "NourishCo PRD"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "NourishCo PRD",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Aptos Display",
+            "color": "#063728",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "NourishCo PRD",
+              "fontSize": 18,
+              "typeface": "Aptos Display",
+              "color": "#063728",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hoza1gvy",
+      "id": "4",
+      "bbox": [
+        56,
+        104,
+        980,
+        44
+      ],
+      "geometry": "rect",
+      "text": "MVP Scope, Prioritization & Success Metrics",
+      "textPreview": "MVP Scope, Prioritization & Success Metrics",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 32,
+        "typeface": "Aptos Display",
+        "color": "#101426",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "MVP Scope, Prioritization & Success Metrics"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "MVP Scope, Prioritization & Success Metrics",
+          "resolvedTextStyle": {
+            "fontSize": 32,
+            "typeface": "Aptos Display",
+            "color": "#101426",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "MVP Scope, Prioritization & Success Metrics",
+              "fontSize": 32,
+              "typeface": "Aptos Display",
+              "color": "#101426",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/s36hcrmh",
+      "id": "5",
+      "bbox": [
+        58,
+        150,
+        1000,
+        28
+      ],
+      "geometry": "rect",
+      "text": "What ships first, why, and how success is measured.",
+      "textPreview": "What ships first, why, and how success is measured.",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "Aptos",
+        "color": "#59645F",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "What ships first, why, and how success is measured."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "What ships first, why, and how success is measured.",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Aptos",
+            "color": "#59645F",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "What ships first, why, and how success is measured.",
+              "fontSize": 14,
+              "typeface": "Aptos",
+              "color": "#59645F"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zidonyd0",
+      "id": "6",
+      "bbox": [
+        66,
+        208,
+        360,
+        260
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#C6CEC8",
+      "lineWidth": 1.1
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a1gvy90j",
+      "id": "7",
+      "bbox": [
+        66,
+        208,
+        5,
+        260
+      ],
+      "geometry": "rect",
+      "fillColor": "#2F7D55",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lszqtcj6",
+      "id": "8",
+      "bbox": [
+        86,
+        225,
+        320,
+        24
+      ],
+      "geometry": "rect",
+      "text": "MVP Scope",
+      "textPreview": "MVP Scope",
+      "resolvedFontSize": 16.51,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16.51,
+        "typeface": "Aptos Display",
+        "color": "#101426",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "MVP Scope"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "MVP Scope",
+          "resolvedTextStyle": {
+            "fontSize": 16.51,
+            "typeface": "Aptos Display",
+            "color": "#101426",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "MVP Scope",
+              "fontSize": 16.51,
+              "typeface": "Aptos Display",
+              "color": "#101426",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/s72x4nap",
+      "id": "9",
+      "bbox": [
+        86,
+        258,
+        320,
+        198
+      ],
+      "geometry": "rect",
+      "text": "1. Supplier registration and document upload\n2. AI parsing and supplier review of extracted data\n3. Supplier-material profile creation\n4. Compliance action queue and reviewer workflow\n5. Renewal/expiry tracking\n6. Procurement visibility into RFQ-ready and blocked opportunities\n7. Basic multi-brand eligibility view",
+      "textPreview": "1. Supplier registration and document upload | 2. AI parsing and supplier review of extracted data | 3. Supplier-material profile creatio...",
+      "resolvedFontSize": 11.8,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 11.8,
+        "typeface": "Aptos",
+        "color": "#59645F",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 8,
+        "lines": [
+          {
+            "index": 1,
+            "text": "1. Supplier registration and document upload"
+          },
+          {
+            "index": 2,
+            "text": "2. AI parsing and supplier review of extracted data"
+          },
+          {
+            "index": 3,
+            "text": "3. Supplier-material profile creation"
+          },
+          {
+            "index": 4,
+            "text": "4. Compliance action queue and reviewer workflow"
+          },
+          {
+            "index": 5,
+            "text": "5. Renewal/expiry tracking"
+          },
+          {
+            "index": 6,
+            "text": "6. Procurement visibility into RFQ-ready and blocked"
+          },
+          {
+            "index": 7,
+            "text": "opportunities"
+          },
+          {
+            "index": 8,
+            "text": "7. Basic multi-brand eligibility view"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "1. Supplier registration and document upload",
+          "resolvedTextStyle": {
+            "fontSize": 11.8,
+            "typeface": "Aptos",
+            "color": "#59645F",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "1. Supplier registration and document upload",
+              "fontSize": 11.8,
+              "typeface": "Aptos",
+              "color": "#59645F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "2. AI parsing and supplier review of extracted data",
+          "resolvedTextStyle": {
+            "fontSize": 11.8,
+            "typeface": "Aptos",
+            "color": "#59645F",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2. AI parsing and supplier review of extracted data",
+              "fontSize": 11.8,
+              "typeface": "Aptos",
+              "color": "#59645F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "3. Supplier-material profile creation",
+          "resolvedTextStyle": {
+            "fontSize": 11.8,
+            "typeface": "Aptos",
+            "color": "#59645F",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "3. Supplier-material profile creation",
+              "fontSize": 11.8,
+              "typeface": "Aptos",
+              "color": "#59645F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "4. Compliance action queue and reviewer workflow",
+          "resolvedTextStyle": {
+            "fontSize": 11.8,
+            "typeface": "Aptos",
+            "color": "#59645F",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "4. Compliance action queue and reviewer workflow",
+              "fontSize": 11.8,
+              "typeface": "Aptos",
+              "color": "#59645F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "5. Renewal/expiry tracking",
+          "resolvedTextStyle": {
+            "fontSize": 11.8,
+            "typeface": "Aptos",
+            "color": "#59645F",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "5. Renewal/expiry tracking",
+              "fontSize": 11.8,
+              "typeface": "Aptos",
+              "color": "#59645F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 6,
+          "text": "6. Procurement visibility into RFQ-ready and blocked opportunities",
+          "resolvedTextStyle": {
+            "fontSize": 11.8,
+            "typeface": "Aptos",
+            "color": "#59645F",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "6. Procurement visibility into RFQ-ready and blocked opportunities",
+              "fontSize": 11.8,
+              "typeface": "Aptos",
+              "color": "#59645F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 7,
+          "text": "7. Basic multi-brand eligibility view",
+          "resolvedTextStyle": {
+            "fontSize": 11.8,
+            "typeface": "Aptos",
+            "color": "#59645F",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "7. Basic multi-brand eligibility view",
+              "fontSize": 11.8,
+              "typeface": "Aptos",
+              "color": "#59645F"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/idonyd0z",
+      "id": "10",
+      "bbox": [
+        460,
+        208,
+        360,
+        260
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#C6CEC8",
+      "lineWidth": 1.1
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/byhgn29g",
+      "id": "11",
+      "bbox": [
+        460,
+        208,
+        5,
+        260
+      ],
+      "geometry": "rect",
+      "fillColor": "#2F67D8",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0je9cvix",
+      "id": "12",
+      "bbox": [
+        480,
+        225,
+        320,
+        24
+      ],
+      "geometry": "rect",
+      "text": "Prioritization Rationale",
+      "textPreview": "Prioritization Rationale",
+      "resolvedFontSize": 16.51,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16.51,
+        "typeface": "Aptos Display",
+        "color": "#101426",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Prioritization Rationale"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Prioritization Rationale",
+          "resolvedTextStyle": {
+            "fontSize": 16.51,
+            "typeface": "Aptos Display",
+            "color": "#101426",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Prioritization Rationale",
+              "fontSize": 16.51,
+              "typeface": "Aptos Display",
+              "color": "#101426",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/t47y1kre",
+      "id": "13",
+      "bbox": [
+        480,
+        258,
+        320,
+        198
+      ],
+      "geometry": "rect",
+      "text": "Start where the operational bottleneck is highest: document intake, duplicate supplier identity, compliance clearance, and reusable supplier-material records.\n\nProcurement screens stay lighter in MVP because they depend on compliance quality. PO execution and payment workflows come later.",
+      "textPreview": "Start where the operational bottleneck is highest: document intake, duplicate supplier identity, compliance clearance, and reusable suppl...",
+      "resolvedFontSize": 12.2,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 12.2,
+        "typeface": "Aptos",
+        "color": "#59645F",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 7,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Start where the operational bottleneck is highest:"
+          },
+          {
+            "index": 2,
+            "text": "document intake, duplicate supplier identity, compliance"
+          },
+          {
+            "index": 3,
+            "text": "clearance, and reusable supplier-material records."
+          },
+          {
+            "index": 4,
+            "text": ""
+          },
+          {
+            "index": 5,
+            "text": "Procurement screens stay lighter in MVP because they"
+          },
+          {
+            "index": 6,
+            "text": "depend on compliance quality. PO execution and payment"
+          },
+          {
+            "index": 7,
+            "text": "workflows come later."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Start where the operational bottleneck is highest: document intake, duplicate supplier identity, compliance clearance, and reusable supplier-material records.",
+          "resolvedTextStyle": {
+            "fontSize": 12.2,
+            "typeface": "Aptos",
+            "color": "#59645F",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Start where the operational bottleneck is highest: document intake, duplicate supplier identity, compliance clearance, and reusable supplier-material records.",
+              "fontSize": 12.2,
+              "typeface": "Aptos",
+              "color": "#59645F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "Procurement screens stay lighter in MVP because they depend on compliance quality. PO execution and payment workflows come later.",
+          "resolvedTextStyle": {
+            "fontSize": 12.2,
+            "typeface": "Aptos",
+            "color": "#59645F",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Procurement screens stay lighter in MVP because they depend on compliance quality. PO execution and payment workflows come later.",
+              "fontSize": 12.2,
+              "typeface": "Aptos",
+              "color": "#59645F"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/il0rqd4v",
+      "id": "14",
+      "bbox": [
+        854,
+        208,
+        360,
+        260
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#C6CEC8",
+      "lineWidth": 1.1
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/b6xkf6dc",
+      "id": "15",
+      "bbox": [
+        854,
+        208,
+        5,
+        260
+      ],
+      "geometry": "rect",
+      "fillColor": "#C71F1F",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0rqd4vmt",
+      "id": "16",
+      "bbox": [
+        874,
+        225,
+        320,
+        24
+      ],
+      "geometry": "rect",
+      "text": "Success Metrics",
+      "textPreview": "Success Metrics",
+      "resolvedFontSize": 16.51,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16.51,
+        "typeface": "Aptos Display",
+        "color": "#101426",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Success Metrics"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Success Metrics",
+          "resolvedTextStyle": {
+            "fontSize": 16.51,
+            "typeface": "Aptos Display",
+            "color": "#101426",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Success Metrics",
+              "fontSize": 16.51,
+              "typeface": "Aptos Display",
+              "color": "#101426",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tcj6tova",
+      "id": "17",
+      "bbox": [
+        874,
+        258,
+        320,
+        198
+      ],
+      "geometry": "rect",
+      "text": "• Onboarding cycle time reduction\n• % documents auto-parsed with high confidence\n• Supplier rework rate\n• Duplicate supplier profile reduction\n• Time to compliance decision\n• Renewal SLA adherence\n• RFQ-ready opportunities created from existing profiles\n• Reviewer backlog and overdue tasks",
+      "textPreview": "• Onboarding cycle time reduction | • % documents auto-parsed with high confidence | • Supplier rework rate | • Duplicate supplier profil...",
+      "resolvedFontSize": 11.8,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 11.8,
+        "typeface": "Aptos",
+        "color": "#59645F",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 8,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• Onboarding cycle time reduction"
+          },
+          {
+            "index": 2,
+            "text": "• % documents auto-parsed with high confidence"
+          },
+          {
+            "index": 3,
+            "text": "• Supplier rework rate"
+          },
+          {
+            "index": 4,
+            "text": "• Duplicate supplier profile reduction"
+          },
+          {
+            "index": 5,
+            "text": "• Time to compliance decision"
+          },
+          {
+            "index": 6,
+            "text": "• Renewal SLA adherence"
+          },
+          {
+            "index": 7,
+            "text": "• RFQ-ready opportunities created from existing profiles"
+          },
+          {
+            "index": 8,
+            "text": "• Reviewer backlog and overdue tasks"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "• Onboarding cycle time reduction",
+          "resolvedTextStyle": {
+            "fontSize": 11.8,
+            "typeface": "Aptos",
+            "color": "#59645F",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• Onboarding cycle time reduction",
+              "fontSize": 11.8,
+              "typeface": "Aptos",
+              "color": "#59645F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "• % documents auto-parsed with high confidence",
+          "resolvedTextStyle": {
+            "fontSize": 11.8,
+            "typeface": "Aptos",
+            "color": "#59645F",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• % documents auto-parsed with high confidence",
+              "fontSize": 11.8,
+              "typeface": "Aptos",
+              "color": "#59645F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "• Supplier rework rate",
+          "resolvedTextStyle": {
+            "fontSize": 11.8,
+            "typeface": "Aptos",
+            "color": "#59645F",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• Supplier rework rate",
+              "fontSize": 11.8,
+              "typeface": "Aptos",
+              "color": "#59645F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "• Duplicate supplier profile reduction",
+          "resolvedTextStyle": {
+            "fontSize": 11.8,
+            "typeface": "Aptos",
+            "color": "#59645F",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• Duplicate supplier profile reduction",
+              "fontSize": 11.8,
+              "typeface": "Aptos",
+              "color": "#59645F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "• Time to compliance decision",
+          "resolvedTextStyle": {
+            "fontSize": 11.8,
+            "typeface": "Aptos",
+            "color": "#59645F",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• Time to compliance decision",
+              "fontSize": 11.8,
+              "typeface": "Aptos",
+              "color": "#59645F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 6,
+          "text": "• Renewal SLA adherence",
+          "resolvedTextStyle": {
+            "fontSize": 11.8,
+            "typeface": "Aptos",
+            "color": "#59645F",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• Renewal SLA adherence",
+              "fontSize": 11.8,
+              "typeface": "Aptos",
+              "color": "#59645F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 7,
+          "text": "• RFQ-ready opportunities created from existing profiles",
+          "resolvedTextStyle": {
+            "fontSize": 11.8,
+            "typeface": "Aptos",
+            "color": "#59645F",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• RFQ-ready opportunities created from existing profiles",
+              "fontSize": 11.8,
+              "typeface": "Aptos",
+              "color": "#59645F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 8,
+          "text": "• Reviewer backlog and overdue tasks",
+          "resolvedTextStyle": {
+            "fontSize": 11.8,
+            "typeface": "Aptos",
+            "color": "#59645F",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• Reviewer backlog and overdue tasks",
+              "fontSize": 11.8,
+              "typeface": "Aptos",
+              "color": "#59645F"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ixczed8v",
+      "id": "18",
+      "bbox": [
+        66,
+        512,
+        1148,
+        82
+      ],
+      "geometry": "rect",
+      "fillColor": "#EEF4F0",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bi9s36hc",
+      "id": "19",
+      "bbox": [
+        90,
+        530,
+        150,
+        20
+      ],
+      "geometry": "rect",
+      "text": "MVP sequencing",
+      "textPreview": "MVP sequencing",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 13,
+        "typeface": "Aptos",
+        "color": "#063728",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "MVP sequencing"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "MVP sequencing",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "typeface": "Aptos",
+            "color": "#063728",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "MVP sequencing",
+              "fontSize": 13,
+              "typeface": "Aptos",
+              "color": "#063728",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zidonyd0",
+      "id": "20",
+      "bbox": [
+        242,
+        530,
+        840,
+        40
+      ],
+      "geometry": "rect",
+      "text": "Phase 1: supplier intake + compliance clearance. Phase 2: procurement workbench and AI sourcing signals. Phase 3: ERP/RFQ integrations and deeper rule configurability.",
+      "textPreview": "Phase 1: supplier intake + compliance clearance. Phase 2: procurement workbench and AI sourcing signals. Phase 3: ERP/RFQ integrations an...",
+      "resolvedFontSize": 13.51,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 13.51,
+        "typeface": "Aptos",
+        "color": "#101426",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Phase 1: supplier intake + compliance clearance. Phase 2: procurement workbench and AI sourcing signals. Phase 3: ERP/RFQ"
+          },
+          {
+            "index": 2,
+            "text": "integrations and deeper rule configurability."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Phase 1: supplier intake + compliance clearance. Phase 2: procurement workbench and AI sourcing signals. Phase 3: ERP/RFQ integrations and deeper rule configurability.",
+          "resolvedTextStyle": {
+            "fontSize": 13.51,
+            "typeface": "Aptos",
+            "color": "#101426",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Phase 1: supplier intake + compliance clearance. Phase 2: procurement workbench and AI sourcing signals. Phase 3: ERP/RFQ integrations and deeper rule configurability.",
+              "fontSize": 13.51,
+              "typeface": "Aptos",
+              "color": "#101426"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a1gvy90j",
+      "id": "21",
+      "bbox": [
+        56,
+        676,
+        1168,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#C6CEC8",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hoza1gvy",
+      "id": "22",
+      "bbox": [
+        58,
+        688,
+        680,
+        16
+      ],
+      "geometry": "rect",
+      "text": "Fictional case study. MVP deliberately keeps final approval human-controlled.",
+      "textPreview": "Fictional case study. MVP deliberately keeps final approval human-controlled.",
+      "resolvedFontSize": 8.51,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 8.51,
+        "typeface": "Aptos",
+        "color": "#59645F",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Fictional case study. MVP deliberately keeps final approval human-controlled."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Fictional case study. MVP deliberately keeps final approval human-controlled.",
+          "resolvedTextStyle": {
+            "fontSize": 8.51,
+            "typeface": "Aptos",
+            "color": "#59645F",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Fictional case study. MVP deliberately keeps final approval human-controlled.",
+              "fontSize": 8.51,
+              "typeface": "Aptos",
+              "color": "#59645F"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/s36hcrmh",
+      "id": "23",
+      "bbox": [
+        1180,
+        686,
+        40,
+        18
+      ],
+      "geometry": "rect",
+      "text": "06",
+      "textPreview": "06",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 10,
+        "typeface": "Aptos",
+        "color": "#59645F",
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "06"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "06",
+          "resolvedTextStyle": {
+            "fontSize": 10,
+            "typeface": "Aptos",
+            "color": "#59645F",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "06",
+              "fontSize": 10,
+              "typeface": "Aptos",
+              "color": "#59645F"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

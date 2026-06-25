@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Procurement Sourcing Workspace - NourishCo</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind Configuration -->
+<script id="tailwind-config">
+          tailwind.config = {
+            darkMode: "class",
+            theme: {
+              extend: {
+                "colors": {
+                    "secondary-fixed-dim": "#95d4b3",
+                    "primary-container": "#0f3d2e",
+                    "on-primary-fixed-variant": "#234f3f",
+                    "surface-container": "#ececff",
+                    "on-tertiary-fixed-variant": "#3f4945",
+                    "secondary": "#2c694e",
+                    "on-secondary": "#ffffff",
+                    "tertiary-fixed-dim": "#bfc9c3",
+                    "on-tertiary-fixed": "#151d1a",
+                    "outline-variant": "#c0c8c3",
+                    "surface-container-high": "#e5e6ff",
+                    "surface-container-lowest": "#ffffff",
+                    "inverse-surface": "#2b2f48",
+                    "outline": "#717974",
+                    "inverse-primary": "#a2d1bb",
+                    "tertiary-container": "#2f3834",
+                    "surface": "#fbf8ff",
+                    "primary-fixed": "#beedd7",
+                    "secondary-fixed": "#b1f0ce",
+                    "on-tertiary": "#ffffff",
+                    "on-primary-fixed": "#002116",
+                    "surface-container-low": "#f4f2ff",
+                    "primary-fixed-dim": "#a2d1bb",
+                    "on-secondary-fixed": "#002114",
+                    "inverse-on-surface": "#f0efff",
+                    "surface-container-highest": "#dee0ff",
+                    "on-surface": "#161a32",
+                    "on-primary-container": "#7ba894",
+                    "surface-tint": "#3b6756",
+                    "error-container": "#ffdad6",
+                    "on-error": "#ffffff",
+                    "on-primary": "#ffffff",
+                    "surface-bright": "#fbf8ff",
+                    "background": "#fbf8ff",
+                    "secondary-container": "#aeeecb",
+                    "on-tertiary-container": "#97a19c",
+                    "tertiary": "#1a221f",
+                    "surface-dim": "#d5d8f9",
+                    "on-surface-variant": "#414944",
+                    "on-secondary-container": "#316e52",
+                    "tertiary-fixed": "#dbe5df",
+                    "primary": "#00261a",
+                    "on-secondary-fixed-variant": "#0e5138",
+                    "on-error-container": "#93000a",
+                    "on-background": "#161a32",
+                    "surface-variant": "#dee0ff",
+                    "error": "#ba1a1a"
+                },
+                "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+                },
+                "spacing": {
+                    "margin-mobile": "12px",
+                    "stack-lg": "16px",
+                    "unit": "4px",
+                    "stack-xs": "2px",
+                    "stack-xl": "32px",
+                    "container-max": "1280px",
+                    "stack-sm": "4px",
+                    "stack-md": "8px",
+                    "margin-desktop": "20px",
+                    "gutter": "12px"
+                },
+                "fontFamily": {
+                    "display": ["Manrope"],
+                    "body-sm": ["Manrope"],
+                    "label-md": ["IBM Plex Sans"],
+                    "body-md": ["Manrope"],
+                    "body-lg": ["Manrope"],
+                    "headline-md": ["Manrope"],
+                    "headline-lg": ["Manrope"],
+                    "headline-lg-mobile": ["Manrope"],
+                    "label-sm": ["IBM Plex Sans"]
+                },
+                "fontSize": {
+                    "display": ["40px", {"lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "body-sm": ["13px", {"lineHeight": "18px", "fontWeight": "400"}],
+                    "label-md": ["13px", {"lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "500"}],
+                    "body-md": ["14px", {"lineHeight": "20px", "fontWeight": "400"}],
+                    "body-lg": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                    "headline-md": ["20px", {"lineHeight": "28px", "fontWeight": "600"}],
+                    "headline-lg": ["28px", {"lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+                    "headline-lg-mobile": ["20px", {"lineHeight": "28px", "fontWeight": "600"}],
+                    "label-sm": ["11px", {"lineHeight": "14px", "letterSpacing": "0.05em", "fontWeight": "500"}]
+                }
+              },
+            },
+          }
+    </script>
+<style>
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 20; vertical-align: middle; font-size: 20px; } 
+        body { font-family: 'Manrope', sans-serif !important; background-color: #fbf8ff; } 
+        #sidebar { transition: width 0.2s cubic-bezier(0.4, 0, 0.2, 1); } 
+        .sidebar-label { transition: opacity 0.1s ease; white-space: nowrap; } 
+        .collapsed .sidebar-label { opacity: 0; width: 0; display: none; } 
+        .collapsed .logo-text { display: none; } 
+        .collapsed .nav-item { justify-content: center; padding-left: 0; padding-right: 0; } 
+        ::-webkit-scrollbar { width: 6px; height: 6px; } 
+        ::-webkit-scrollbar-track { background: #f1f1f1; } 
+        ::-webkit-scrollbar-thumb { background: #ccc; border-radius: 3px; } 
+        ::-webkit-scrollbar-thumb:hover { background: #999; } 
+        .font-label-md, .font-label-sm { font-family: 'Manrope', sans-serif !important; }
+        .tooltip-trigger:hover .tooltip { display: block; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+</head>
+<body class="flex min-h-screen w-full text-on-surface overflow-x-hidden bg-background">
+<!-- Sidebar -->
+<aside class="flex flex-col h-full border-r border-outline-variant bg-white z-50 shrink-0 w-64" id="sidebar">
+<div class="flex flex-col h-full">
+<!-- Logo Section -->
+<div class="p-3 flex items-center justify-between mb-2 shrink-0">
+<div class="flex items-center gap-2 logo-text overflow-hidden">
+<span class="font-headline-md font-bold text-primary" style="font-size: 22px; letter-spacing: -0.02em;">NorishCo</span>
+</div>
+<button class="p-1.5 hover:bg-surface-container rounded transition-colors text-on-surface-variant" id="sidebarToggle">
+<span class="material-symbols-outlined" id="toggleIcon">menu_open</span>
+</button>
+</div>
+<!-- Navigation Links -->
+<nav class="flex flex-col gap-0.5 px-2 flex-1 overflow-y-auto overflow-x-hidden">
+<a class="nav-item flex items-center gap-3 px-3 py-2 transition-colors rounded-sm text-on-surface-variant hover:bg-surface-container hover:text-primary" href="#">
+<span class="material-symbols-outlined">dashboard</span>
+<span class="font-label-md sidebar-label">Dashboard</span>
+</a>
+<a class="nav-item flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container hover:text-primary transition-colors rounded-sm bg-primary-container/10 border-r-2 border-primary text-primary font-semibold" href="#">
+<span class="material-symbols-outlined">storefront</span>
+<span class="font-label-md sidebar-label">Supplier Marketplace</span>
+</a>
+<a class="nav-item flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container hover:text-primary transition-colors rounded-sm" href="#">
+<span class="material-symbols-outlined">lightbulb</span>
+<span class="font-label-md sidebar-label">Sourcing Opportunities</span>
+</a>
+</nav>
+</div>
+</aside>
+<!-- Right Side Content Area -->
+<div class="flex-1 flex flex-col min-w-0 min-h-screen overflow-hidden">
+<!-- Header -->
+<header class="flex justify-between items-center gap-3 px-margin-desktop h-12 bg-white border-b border-outline-variant shrink-0 z-40">
+<div class="flex items-center">
+<span class="font-bold text-on-surface font-body-lg" style="font-size: 16px;">Supplier Marketplace</span>
+</div>
+<div class="flex-1 min-w-0 mx-stack-xl relative max-w-md">
+<span class="material-symbols-outlined absolute left-2.5 top-1/2 -translate-y-1/2 text-outline scale-90">search</span>
+<input class="w-full bg-surface-container-low border border-outline-variant rounded pl-8 pr-3 py-1.5 text-label-md focus:outline-none focus:border-primary transition-all placeholder:text-outline/60" placeholder="Search suppliers, materials, RFQs, or contracts" type="text"/>
+</div>
+<div class="flex items-center gap-3">
+<button class="relative p-1.5 text-on-surface-variant hover:text-primary transition-colors">
+<span class="material-symbols-outlined">notifications</span>
+<span class="absolute top-1.5 right-1.5 w-1.5 h-1.5 bg-error rounded-full"></span>
+</button>
+<button class="p-1.5 text-on-surface-variant hover:text-primary transition-colors">
+<span class="material-symbols-outlined">settings</span>
+</button>
+<div class="w-px h-5 bg-outline-variant mx-1"></div>
+<div class="flex items-center gap-2 ml-1">
+<div class="flex flex-col items-end">
+<span class="font-label-md font-bold text-on-surface leading-tight">Minae Daye</span>
+<span class="text-[10px] text-on-surface-variant leading-none">Procurement Manager</span>
+</div>
+<img alt="User" class="w-7 h-7 rounded-full object-cover ring-1 ring-outline-variant" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBVbhJewU4tavRS2Aj9sKrA2Z4nhVb6_PybNdeeR2LimHoaorsP2O2hq16niCJJjZiyLneWN3JdD1zjSFT9F62JD_hutf5bfuWZNFtin124uhN9fF6HNlDPkq-vgnwq9KXp8qGltKuesKZnMvtLRRTliMLX2RiDaol95Nq407gdJDn3b6NnJz2sxyn4sdekFNPx_2s5X3tMpyeeJ2uOoPXT7Okj7HXsyMPCb1s93rwzJpO1Jm_0fo-hgzxI5xwQJ7m9bAa9WHfZygY"/>
+</div>
+</div>
+</header>
+<!-- Main Scrollable Content -->
+<main class="flex-1 overflow-y-auto overflow-x-hidden bg-background">
+<div class="p-margin-desktop space-y-4 w-full">
+<!-- Top Spacing/Breadcrumb area if needed -->
+<!-- AI Sourcing Alerts Panel / Main Table Section -->
+<div class="grid grid-cols-1 gap-gutter">
+<section class="bg-white border border-outline-variant rounded-sm flex flex-col shadow-sm">
+<div class="px-4 py-3 border-b border-outline-variant flex justify-between items-center bg-white">
+<div class="flex items-center gap-3">
+<h3 class="font-headline-md text-on-surface"><b>Supplier Marketplace</b></h3>
+<span class="text-body-sm text-on-surface-variant">1,284 suppliers</span>
+</div>
+<div class="flex items-center gap-2">
+<button class="px-3 py-1.5 bg-primary text-on-primary rounded-sm text-label-md font-bold hover:bg-primary-container transition-colors">Add supplier from onboarding</button>
+</div>
+</div>
+<div class="p-4 space-y-4">
+<!-- Filter Builder Area Wrapper -->
+<div class="p-3 bg-surface-container-low border border-outline-variant rounded-sm space-y-3">
+<!-- Saved Views Bar -->
+<div class="flex items-center gap-2 overflow-x-auto pb-1 no-scrollbar">
+<span class="text-[10px] font-bold text-outline uppercase whitespace-nowrap">Saved Views:</span>
+<button class="px-2 py-0.5 bg-secondary-container text-on-secondary-container text-[10px] font-bold rounded-full whitespace-nowrap">Approved</button>
+<button class="px-2 py-0.5 bg-surface-container text-on-surface-variant text-[10px] font-bold rounded-full whitespace-nowrap hover:bg-surface-container-high">Pipeline applicants</button>
+<button class="px-2 py-0.5 bg-surface-container text-on-surface-variant text-[10px] font-bold rounded-full whitespace-nowrap hover:bg-surface-container-high">RFQ ready</button>
+<button class="px-2 py-0.5 bg-surface-container text-on-surface-variant text-[10px] font-bold rounded-full whitespace-nowrap hover:bg-surface-container-high">Compliance blocked</button>
+<button class="px-2 py-0.5 bg-surface-container text-on-surface-variant text-[10px] font-bold rounded-full whitespace-nowrap hover:bg-surface-container-high">Region</button>
+<button class="px-2 py-0.5 bg-surface-container text-on-surface-variant text-[10px] font-bold rounded-full whitespace-nowrap hover:bg-surface-container-high">Category</button>
+</div>
+<!-- Filter Builder -->
+<div class="space-y-2">
+<div class="flex items-center justify-between flex-wrap gap-2">
+<div class="flex items-center gap-3">
+<span class="text-[10px] font-bold text-outline uppercase">Show suppliers where:</span>
+<div class="flex border border-outline-variant rounded-sm overflow-hidden text-[10px] font-bold">
+<button class="px-2 py-0.5 bg-primary text-on-primary">AND</button>
+<button class="px-2 py-0.5 bg-white text-on-surface-variant hover:bg-surface-container">OR</button>
+</div>
+</div>
+<div class="flex items-center gap-3">
+<button class="text-[10px] font-bold text-outline hover:text-primary transition-colors">Clear filters</button>
+<button class="text-[10px] font-bold text-primary hover:underline">Save view</button>
+<button class="px-3 py-1 bg-primary text-on-primary text-[11px] font-bold rounded-sm hover:bg-primary-container transition-colors">Apply Filters</button>
+</div>
+</div>
+<div class="flex flex-wrap items-center gap-2">
+<div class="flex items-center gap-1.5 flex-1 min-w-[300px]">
+<select class="bg-white border border-outline-variant text-[11px] rounded-sm px-2 py-1 focus:ring-1 focus:ring-primary h-7 min-w-[120px]">
+<option>Status</option>
+<option>Supplier</option>
+<option>Region</option>
+</select>
+<select class="bg-white border border-outline-variant text-[11px] rounded-sm px-2 py-1 focus:ring-1 focus:ring-primary h-7 min-w-[100px]">
+<option>is</option>
+<option>is not</option>
+</select>
+<select class="bg-white border border-outline-variant text-[11px] rounded-sm px-2 py-1 focus:ring-1 focus:ring-primary h-7 flex-1">
+<option>Any status</option>
+<option>Ready</option>
+<option>Blocked</option>
+</select>
+<button class="p-1 text-outline hover:text-error transition-colors">
+<span class="material-symbols-outlined text-sm">close</span>
+</button>
+</div>
+<div class="flex items-center gap-3 whitespace-nowrap">
+<button class="text-primary text-[10px] font-bold uppercase tracking-wider flex items-center gap-0.5 hover:underline">
+<span class="material-symbols-outlined text-sm">add</span>Add condition
+        </button>
+<button class="text-primary text-[10px] font-bold uppercase tracking-wider flex items-center gap-0.5 hover:underline">
+<span class="material-symbols-outlined text-sm">add_box</span>Add group
+        </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Table Area -->
+<div class="overflow-x-auto border border-outline-variant rounded-sm bg-white">
+<table class="w-full text-left border-collapse table-auto min-w-[1000px]">
+<thead class="bg-surface-container text-[11px] font-bold text-outline uppercase sticky top-0 z-10">
+<tr>
+<th class="px-4 py-3 font-label-sm text-outline uppercase">Supplier</th>
+<th class="px-4 py-3 font-label-sm text-outline uppercase">Materials</th>
+<th class="px-4 py-3 font-label-sm text-outline uppercase">Brand Fit</th>
+<th class="px-4 py-3 font-label-sm text-outline uppercase">Region</th>
+<th class="px-4 py-3 font-label-sm text-outline uppercase">RFQ Readiness</th>
+<th class="px-4 py-3 font-label-sm text-outline uppercase">Risk</th>
+<th class="px-4 py-3 font-label-sm text-outline uppercase">Capacity Signal</th>
+<th class="px-4 py-3 font-label-sm text-outline uppercase">Last Updated</th>
+<th class="px-4 py-3 font-label-sm text-outline uppercase">Action</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-outline-variant">
+<tr class="hover:bg-surface-container-lowest transition-colors">
+<td class="p-4 py-2 text-body-sm font-bold text-on-surface">Pure Curcumin Labs</td>
+<td class="p-4 py-2 text-body-sm text-on-surface-variant">Pure Curcumin</td>
+<td class="p-4 py-2 text-body-sm text-on-surface-variant">DailyGlow, Harvest Bites</td>
+<td class="p-4 py-2 text-body-sm text-on-surface-variant">India</td>
+<td class="p-4 py-2"><span class="px-2 py-0.5 bg-secondary-container text-on-secondary-container text-[9px] font-bold uppercase rounded-sm">Ready</span></td>
+<td class="p-4 py-2"><span class="text-[11px] font-bold text-on-surface-variant">Medium</span></td>
+<td class="p-4 py-2 text-body-sm text-on-surface-variant">800 kg/mo</td>
+<td class="p-4 py-2 text-body-sm text-on-surface-variant">May 28, 2026</td>
+<td class="p-4 py-2"><button class="text-primary font-bold text-[10px] uppercase hover:underline">Add to RFQ</button></td>
+</tr>
+<tr class="hover:bg-surface-container-lowest transition-colors">
+<td class="p-4 py-2 text-body-sm font-bold text-on-surface">EcoHarvest Co.</td>
+<td class="p-4 py-2 text-body-sm text-on-surface-variant">Sustainable board</td>
+<td class="p-4 py-2 text-body-sm text-on-surface-variant">EcoPack</td>
+<td class="p-4 py-2 text-body-sm text-on-surface-variant">EU-West</td>
+<td class="p-4 py-2"><span class="px-2 py-0.5 bg-secondary-container text-on-secondary-container text-[9px] font-bold uppercase rounded-sm">Ready</span></td>
+<td class="p-4 py-2"><span class="text-[11px] font-bold text-on-surface-variant text-secondary">Low</span></td>
+<td class="p-4 py-2 text-body-sm text-on-surface-variant">50k units/mo</td>
+<td class="p-4 py-2 text-body-sm text-on-surface-variant">May 26, 2026</td>
+<td class="p-4 py-2"><button class="text-primary font-bold text-[10px] uppercase hover:underline">Add to RFQ</button></td>
+</tr>
+<tr class="hover:bg-surface-container-lowest transition-colors">
+<td class="p-4 py-2 text-body-sm font-bold text-on-surface">SpiceRoute Naturals</td>
+<td class="p-4 py-2 text-body-sm text-on-surface-variant">Seasoning blends</td>
+<td class="p-4 py-2 text-body-sm text-on-surface-variant">QuickEats</td>
+<td class="p-4 py-2 text-body-sm text-on-surface-variant">India</td>
+<td class="p-4 py-2"><span class="px-2 py-0.5 bg-error-container text-on-error-container text-[9px] font-bold uppercase rounded-sm">Blocked</span></td>
+<td class="p-4 py-2"><span class="text-[11px] font-bold text-error">High</span></td>
+<td class="p-4 py-2 text-body-sm text-on-surface-variant">1,200 kg/mo</td>
+<td class="p-4 py-2 text-body-sm text-on-surface-variant">May 24, 2026</td>
+<td class="p-4 py-2"><button class="text-primary font-bold text-[10px] uppercase hover:underline">View blockers</button></td>
+</tr>
+<tr class="hover:bg-surface-container-lowest transition-colors">
+<td class="p-4 py-2 text-body-sm font-bold text-on-surface">ClearSpring Packaging</td>
+<td class="p-4 py-2 text-body-sm text-on-surface-variant">PET bottles</td>
+<td class="p-4 py-2 text-body-sm text-on-surface-variant">PureSip</td>
+<td class="p-4 py-2 text-body-sm text-on-surface-variant">NA-East</td>
+<td class="p-4 py-2"><span class="px-2 py-0.5 bg-surface-container-highest text-on-surface-variant text-[9px] font-bold uppercase rounded-sm">Renewal due</span></td>
+<td class="p-4 py-2"><span class="text-[11px] font-bold text-on-surface-variant">Medium</span></td>
+<td class="p-4 py-2 text-body-sm text-on-surface-variant">2M bottles/mo</td>
+<td class="p-4 py-2 text-body-sm text-on-surface-variant">May 21, 2026</td>
+<td class="p-4 py-2"><button class="text-primary font-bold text-[10px] uppercase hover:underline">Review terms</button></td>
+</tr>
+<tr class="hover:bg-surface-container-lowest transition-colors">
+<td class="p-4 py-2 text-body-sm font-bold text-on-surface">GlowPack Materials</td>
+<td class="p-4 py-2 text-body-sm text-on-surface-variant">Recyclable tubes</td>
+<td class="p-4 py-2 text-body-sm text-on-surface-variant">DailyGlow</td>
+<td class="p-4 py-2 text-body-sm text-on-surface-variant">APAC</td>
+<td class="p-4 py-2"><span class="px-2 py-0.5 bg-secondary-container text-on-secondary-container text-[9px] font-bold uppercase rounded-sm">Ready</span></td>
+<td class="p-4 py-2"><span class="text-[11px] font-bold text-secondary">Low</span></td>
+<td class="p-4 py-2 text-body-sm text-on-surface-variant">300k tubes/mo</td>
+<td class="p-4 py-2 text-body-sm text-on-surface-variant">May 20, 2026</td>
+<td class="p-4 py-2"><button class="text-primary font-bold text-[10px] uppercase hover:underline">Add to RFQ</button></td>
+</tr>
+<tr class="hover:bg-surface-container-lowest transition-colors">
+<td class="p-4 py-2 text-body-sm font-bold text-on-surface">GrainWell Foods</td>
+<td class="p-4 py-2 text-body-sm text-on-surface-variant">Organic chickpea flour</td>
+<td class="p-4 py-2 text-body-sm text-on-surface-variant">Harvest Bites</td>
+<td class="p-4 py-2 text-body-sm text-on-surface-variant">India</td>
+<td class="p-4 py-2"><span class="px-2 py-0.5 bg-tertiary-fixed text-on-tertiary-fixed-variant text-[9px] font-bold uppercase rounded-sm">Trial required</span></td>
+<td class="p-4 py-2"><span class="text-[11px] font-bold text-on-surface-variant">Medium</span></td>
+<td class="p-4 py-2 text-body-sm text-on-surface-variant">2,500 kg/mo</td>
+<td class="p-4 py-2 text-body-sm text-on-surface-variant">May 18, 2026</td>
+<td class="p-4 py-2"><button class="text-primary font-bold text-[10px] uppercase hover:underline">Request trial</button></td>
+</tr>
+<tr class="hover:bg-surface-container-lowest transition-colors">
+<td class="p-4 py-2 text-body-sm font-bold text-on-surface">BioWrap Solutions</td>
+<td class="p-4 py-2 text-body-sm text-on-surface-variant">Compostable film</td>
+<td class="p-4 py-2 text-body-sm text-on-surface-variant">EcoPack</td>
+<td class="p-4 py-2 text-body-sm text-on-surface-variant">EU-West</td>
+<td class="p-4 py-2"><span class="px-2 py-0.5 bg-error-container text-on-error-container text-[9px] font-bold uppercase rounded-sm">Blocked</span></td>
+<td class="p-4 py-2"><span class="text-[11px] font-bold text-error">High</span></td>
+<td class="p-4 py-2 text-body-sm text-on-surface-variant">70k rolls/mo</td>
+<td class="p-4 py-2 text-body-sm text-on-surface-variant">May 16, 2026</td>
+<td class="p-4 py-2"><button class="text-primary font-bold text-[10px] uppercase hover:underline">Monitor clearance</button></td>
+</tr>
+<tr class="hover:bg-surface-container-lowest transition-colors">
+<td class="p-4 py-2 text-body-sm font-bold text-on-surface">NutriPulse Ingredients</td>
+<td class="p-4 py-2 text-body-sm text-on-surface-variant">Snack ingredient blend</td>
+<td class="p-4 py-2 text-body-sm text-on-surface-variant">Harvest Bites</td>
+<td class="p-4 py-2 text-body-sm text-on-surface-variant">India</td>
+<td class="p-4 py-2"><span class="px-2 py-0.5 bg-error-container text-on-error-container text-[9px] font-bold uppercase rounded-sm">Blocked</span></td>
+<td class="p-4 py-2"><span class="text-[11px] font-bold text-on-surface-variant">Medium</span></td>
+<td class="p-4 py-2 text-body-sm text-on-surface-variant">1,000 kg/mo</td>
+<td class="p-4 py-2 text-body-sm text-on-surface-variant">May 15, 2026</td>
+<td class="p-4 py-2"><button class="text-primary font-bold text-[10px] uppercase hover:underline">Request clearer copy</button></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+</div>
+</div>
+</main>
+<!-- Footer -->
+<footer class="bg-white border-t border-outline-variant w-full py-2 shrink-0 z-50">
+<div class="px-margin-desktop flex justify-between items-center">
+<div class="font-bold text-primary text-[10px] uppercase tracking-widest">NourishCo</div>
+<div class="flex items-center space-x-6">
+<a class="text-on-surface-variant text-[9px] hover:text-primary transition-all font-medium uppercase tracking-tighter" href="#">Privacy</a>
+<a class="text-on-surface-variant text-[9px] hover:text-primary transition-all font-medium uppercase tracking-tighter" href="#">Terms</a>
+<a class="text-on-surface-variant text-[9px] hover:text-primary transition-all font-medium uppercase tracking-tighter" href="#">Compliance Standards</a>
+</div>
+</div>
+</footer>
+</div>
+<script>
+    // Sidebar Toggling Logic
+    const sidebar = document.getElementById('sidebar');
+    const sidebarToggle = document.getElementById('sidebarToggle');
+    const toggleIcon = document.getElementById('toggleIcon');
+    
+    sidebarToggle.addEventListener('click', () => {
+        sidebar.classList.toggle('collapsed');
+        sidebar.classList.toggle('w-64');
+        sidebar.classList.toggle('w-16');
+        
+        if (sidebar.classList.contains('collapsed')) {
+            toggleIcon.textContent = 'menu';
+        } else {
+            toggleIcon.textContent = 'menu_open';
+        }
+    });
+</script>
+</body></html>

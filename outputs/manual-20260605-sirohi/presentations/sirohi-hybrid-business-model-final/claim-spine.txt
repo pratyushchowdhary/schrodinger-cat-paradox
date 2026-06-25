@@ -1,0 +1,7 @@
+Thesis: Sirohi's impact model works because the Foundation enables artisan participation while SFPL creates commercial demand.
+Audience: board, funders, partners, customers, internal leadership.
+One-line arc: capability building creates supply; SFPL converts supply into market demand; revenue and cost recovery sustain the ecosystem.
+Slide 1 claim: The hybrid model separates inclusion from market creation while keeping both tied to artisan livelihoods.
+Proof object: one-page operating model with Foundation lane, SFPL lane, product flow, money flow, and value created.
+Source: user-provided prompt.
+Omission notes: no financial figures, customer counts, wage rates, or artisan counts were provided, so none are shown.

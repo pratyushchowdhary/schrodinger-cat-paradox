@@ -1,0 +1,5 @@
+Slide size: 1280x720
+Visual system: premium editorial infographic
+Palette: off-white paper, deep green, wine red, muted blue, ochre money accent
+Typography: Aptos Display for claims, Aptos for body
+Brand rule: text-only Sirohi mark, no fake logo

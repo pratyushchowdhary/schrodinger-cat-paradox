@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#fff8ea" />
+  <title>Fraud Shield</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="app-shell">
+    <header class="topbar">
+      <div class="brand-mark" aria-hidden="true">✓</div>
+      <div>
+        <p class="eyebrow">CALL PROTECTION</p>
+        <h1>Fraud Shield</h1>
+      </div>
+      <span class="status-pill"><i></i> ON</span>
+    </header>
+
+    <section id="homeScreen" class="screen active" aria-labelledby="homeTitle">
+      <div class="hero-card safe-card">
+        <div class="shield-icon" aria-hidden="true">✓</div>
+        <p class="eyebrow">YOU ARE PROTECTED</p>
+        <h2 id="homeTitle">Unknown calls are being checked</h2>
+        <p>Fraud Shield listens for risky words only when a number is not in your contacts.</p>
+      </div>
+
+      <div class="rule-card">
+        <div class="rule-icon" aria-hidden="true">☎</div>
+        <div>
+          <strong>Saved contacts stay private</strong>
+          <span>Family and friends are never monitored.</span>
+        </div>
+      </div>
+
+      <section class="how-card" aria-labelledby="howTitle">
+        <h3 id="howTitle">How it protects you</h3>
+        <ol>
+          <li><b>1</b><span><strong>Unknown number calls</strong><small>Protection starts automatically</small></span></li>
+          <li><b>2</b><span><strong>Risky words are detected</strong><small>Like OTP, PIN, password or prize</small></span></li>
+          <li><b>3</b><span><strong>You get a clear warning</strong><small>Your phone vibrates and flashes red</small></span></li>
+        </ol>
+      </section>
+
+      <button id="demoButton" class="primary-button" type="button">
+        <span aria-hidden="true">☎</span> Try a sample call
+      </button>
+      <p class="privacy-note">Audio stays on this device. Nothing is recorded.</p>
+    </section>
+
+    <section id="callScreen" class="screen call-screen" aria-labelledby="callerName">
+      <div id="warningOverlay" class="warning-overlay" role="alert" aria-live="assertive" aria-hidden="true">
+        <div class="warning-badge">!</div>
+        <p>FRAUD WARNING</p>
+        <h2>Do not share any information</h2>
+        <span id="warningReason">The caller asked for your OTP</span>
+        <button id="warningHangup" type="button">End call now</button>
+      </div>
+
+      <div class="call-header">
+        <span class="unknown-label">UNKNOWN NUMBER</span>
+        <div class="caller-avatar" aria-hidden="true">?</div>
+        <h2 id="callerName">+91 98765 43210</h2>
+        <p id="callTimer">00:00</p>
+      </div>
+
+      <div id="listeningCard" class="listening-card">
+        <span class="pulse-dot" aria-hidden="true"></span>
+        <div>
+          <strong id="listeningTitle">Checking this call...</strong>
+          <span id="transcript">Listening for signs of fraud</span>
+        </div>
+      </div>
+
+      <div class="call-actions">
+        <button id="safeButton" class="safe-button" type="button">Mark as safe</button>
+        <button id="hangupButton" class="hangup-button" type="button"><span aria-hidden="true">☎</span> End call</button>
+      </div>
+    </section>
+
+    <section id="summaryScreen" class="screen summary-screen" aria-labelledby="summaryTitle">
+      <div class="summary-icon" aria-hidden="true">✓</div>
+      <p class="eyebrow">CALL ENDED</p>
+      <h2 id="summaryTitle">You did the safe thing</h2>
+      <p id="summaryText">The caller used words commonly linked to fraud. No information was shared.</p>
+      <button id="homeButton" class="primary-button" type="button">Back to protection</button>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

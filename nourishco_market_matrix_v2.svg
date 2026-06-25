@@ -1,0 +1,230 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1150" viewBox="0 0 1600 1150" role="img" aria-labelledby="title desc">
+  <title id="title">NourishCo Competitive Market Map</title>
+  <desc id="desc">A 2x2 competitor positioning matrix for supplier onboarding and compliance software.</desc>
+  <defs>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#17201a" flood-opacity="0.12"/>
+    </filter>
+    <style>
+      .bg { fill: #f7f8f4; }
+      .panel { fill: #ffffff; stroke: #dce4db; stroke-width: 2; filter: url(#softShadow); }
+      .grid { stroke: #bcc9c0; stroke-width: 3; }
+      .minor { stroke: #e2e8e2; stroke-width: 1.5; }
+      .axis { fill: #405047; font: 700 22px Inter, Arial, sans-serif; }
+      .axis-small { fill: #667069; font: 600 18px Inter, Arial, sans-serif; }
+      .quad { fill: #9aa8a0; font: 800 24px Inter, Arial, sans-serif; letter-spacing: 0; opacity: 0.78; }
+      .title { fill: #17201a; font: 900 44px Inter, Arial, sans-serif; letter-spacing: 0; }
+      .subtitle { fill: #667069; font: 500 22px Inter, Arial, sans-serif; }
+      .note { fill: #667069; font: 500 16px Inter, Arial, sans-serif; }
+      .market { fill: #17201a; font: 800 18px Inter, Arial, sans-serif; }
+      .market-small { fill: #667069; font: 500 15px Inter, Arial, sans-serif; }
+      .legend { fill: #405047; font: 700 16px Inter, Arial, sans-serif; }
+      .label { fill: #17201a; font: 700 16px Inter, Arial, sans-serif; }
+      .tiny { fill: #667069; font: 600 12px Inter, Arial, sans-serif; }
+      .rev { fill: #d95c4a; font: 800 14px Inter, Arial, sans-serif; }
+      .enterprise { fill: #2f69a5; stroke: #1d4d80; }
+      .startup { fill: #2f7d55; stroke: #205c3d; }
+      .compliance { fill: #7b5bb6; stroke: #5b3e91; }
+      .finance { fill: #aa761d; stroke: #7d5616; }
+      .legacy { fill: #77857d; stroke: #56635b; }
+      .target { fill: #d95c4a; stroke: #9f3326; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="1600" height="1150"/>
+
+  <text class="title" x="80" y="74">Supplier Onboarding &amp; Compliance Market Map</text>
+  <text class="subtitle" x="80" y="113">NourishCo fictional case: where broad procurement, AP automation, supplier risk, and food/CPG compliance overlap</text>
+
+  <g transform="translate(80 148)">
+    <rect class="panel" x="0" y="0" width="1080" height="840" rx="14"/>
+    <line class="grid" x1="540" y1="0" x2="540" y2="840"/>
+    <line class="grid" x1="0" y1="420" x2="1080" y2="420"/>
+    <line class="minor" x1="270" y1="0" x2="270" y2="840"/>
+    <line class="minor" x1="810" y1="0" x2="810" y2="840"/>
+    <line class="minor" x1="0" y1="210" x2="1080" y2="210"/>
+    <line class="minor" x1="0" y1="630" x2="1080" y2="630"/>
+
+    <text class="quad" x="164" y="42">ENTERPRISE SOURCE-TO-PAY</text>
+    <text class="quad" x="662" y="42">COMPLIANCE-FIRST PLATFORMS</text>
+    <text class="quad" x="112" y="810">FINANCE / LEGACY WORKFLOW</text>
+    <text class="quad" x="664" y="810">SPECIALIST RISK / COMPLIANCE</text>
+
+    <text class="axis" x="214" y="908">Generic procurement / finance workflow</text>
+    <text class="axis" x="622" y="908">Supplier compliance / risk depth</text>
+    <path d="M 502 900 L 578 900" stroke="#667069" stroke-width="3" marker-end="url(#arrow)"/>
+    <text class="axis" transform="translate(-46 586) rotate(-90)">Narrow point solution</text>
+    <text class="axis" transform="translate(-46 300) rotate(-90)">Broad platform / orchestration layer</text>
+
+    <defs>
+      <marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M0,0 L0,6 L7,3 z" fill="#667069"/>
+      </marker>
+    </defs>
+
+    <!-- Enterprise broad platforms -->
+    <g>
+      <circle class="enterprise" cx="330" cy="155" r="24"/>
+      <text class="label" x="370" y="142">SAP Ariba / SAP</text>
+      <text class="rev" x="370" y="163">SAP total rev: €36.8B</text>
+
+      <circle class="enterprise" cx="468" cy="125" r="20"/>
+      <text class="label" x="492" y="112">Coupa</text>
+      <text class="rev" x="492" y="133">$725M FY22</text>
+
+      <circle class="enterprise" cx="365" cy="248" r="16"/>
+      <text class="label" x="390" y="244">Ivalua</text>
+      <text class="rev" x="390" y="264">~$200M 2024</text>
+
+      <circle class="enterprise" cx="405" cy="292" r="14"/>
+      <text class="label" x="428" y="297">JAGGAER</text>
+
+      <circle class="enterprise" cx="448" cy="310" r="14"/>
+      <text class="label" x="471" y="315">GEP</text>
+
+      <circle class="enterprise" cx="292" cy="275" r="14"/>
+      <text class="label" x="204" y="280">Oracle</text>
+
+      <circle class="enterprise" cx="332" cy="326" r="13"/>
+      <text class="label" x="258" y="331">Zycus</text>
+
+      <circle class="startup" cx="500" cy="208" r="13"/>
+      <text class="label" x="522" y="213">Zip (SUP)</text>
+
+      <circle class="startup" cx="445" cy="200" r="12"/>
+      <text class="label" x="238" y="205">Levelpath (SUP)</text>
+
+      <circle class="startup" cx="530" cy="252" r="12"/>
+      <text class="label" x="552" y="257">ORO Labs (SUP)</text>
+
+      <circle class="startup" cx="538" cy="288" r="11"/>
+      <text class="label" x="560" y="293">Tonkean (SUP)</text>
+    </g>
+
+    <!-- Compliance-first broad platforms -->
+    <g>
+      <circle class="compliance" cx="795" cy="158" r="17"/>
+      <text class="label" x="820" y="153">TraceGains</text>
+      <text class="tiny" x="820" y="172">private / n.d.</text>
+
+      <circle class="compliance" cx="835" cy="210" r="16"/>
+      <text class="label" x="860" y="207">Trustwell / FoodLogiQ</text>
+      <text class="tiny" x="860" y="226">private / n.d.</text>
+
+      <circle class="compliance" cx="745" cy="270" r="14"/>
+      <text class="label" x="768" y="275">HICX</text>
+
+      <circle class="startup" cx="692" cy="238" r="15"/>
+      <text class="label" x="610" y="222">Certa (SUP)</text>
+
+      <path d="M700 328 l13 26 29 4 -21 20 5 29 -26 -14 -26 14 5 -29 -21 -20 29 -4z" class="target"/>
+      <text class="label" x="735" y="358">NourishCo target</text>
+      <text class="tiny" x="735" y="377">center-right wedge</text>
+    </g>
+
+    <!-- Finance/AP and legacy workflow -->
+    <g>
+      <circle class="finance" cx="390" cy="505" r="15"/>
+      <text class="label" x="415" y="510">Basware</text>
+
+      <circle class="finance" cx="445" cy="540" r="14"/>
+      <text class="label" x="468" y="545">Medius / Wax Digital</text>
+
+      <circle class="finance" cx="350" cy="558" r="14"/>
+      <text class="label" x="275" y="563">Esker</text>
+
+      <circle class="finance" cx="498" cy="590" r="13"/>
+      <text class="label" x="520" y="595">Tradeshift</text>
+
+      <circle class="legacy" cx="270" cy="620" r="12"/>
+      <text class="label" x="118" y="625">Proactis / Perfect Commerce</text>
+
+      <circle class="legacy" cx="315" cy="670" r="11"/>
+      <text class="label" x="217" y="675">SynerTrade</text>
+
+      <circle class="legacy" cx="180" cy="675" r="11"/>
+      <text class="label" x="40" y="680">Mercado Eletrônico</text>
+
+      <circle class="legacy" cx="230" cy="560" r="11"/>
+      <text class="label" x="112" y="545">BirchStreet</text>
+      <text class="label" x="112" y="565">Systems</text>
+
+      <circle class="legacy" cx="245" cy="720" r="10"/>
+      <text class="label" x="178" y="725">Elcom</text>
+
+      <circle class="legacy" cx="490" cy="705" r="10"/>
+      <text class="label" x="510" y="710">b-pack</text>
+
+      <circle class="legacy" cx="515" cy="650" r="10"/>
+      <text class="label" x="535" y="655">jCatalog</text>
+
+      <circle class="legacy" cx="425" cy="650" r="10"/>
+      <text class="label" x="350" y="655">Verian</text>
+
+      <circle class="legacy" cx="300" cy="510" r="10"/>
+      <text class="label" x="235" y="488">SAP SRM</text>
+
+      <circle class="legacy" cx="190" cy="505" r="10"/>
+      <text class="label" x="62" y="493">Oracle PeopleSoft / EBS</text>
+    </g>
+
+    <!-- Specialist compliance/risk -->
+    <g>
+      <circle class="compliance" cx="755" cy="575" r="14"/>
+      <text class="label" x="780" y="580">SafetyChain</text>
+
+      <circle class="compliance" cx="805" cy="635" r="14"/>
+      <text class="label" x="830" y="640">Specright</text>
+
+      <circle class="startup" cx="858" cy="548" r="14"/>
+      <text class="label" x="884" y="553">Prewave (SUP)</text>
+      <text class="tiny" x="884" y="572">private / n.d.</text>
+    </g>
+  </g>
+
+  <g transform="translate(1200 148)">
+    <rect class="panel" x="0" y="0" width="320" height="840" rx="14"/>
+    <text class="axis" x="24" y="42">Market Layers</text>
+    <text class="note" x="24" y="72">2025 estimates; overlapping categories,</text>
+    <text class="note" x="24" y="94">not additive TAM.</text>
+
+    <g transform="translate(24 136)">
+      <rect x="0" y="0" width="260" height="92" rx="10" fill="#e4f0e8"/>
+      <text class="market" x="18" y="31">Procurement software</text>
+      <text class="title" x="18" y="75" style="font-size:34px">$10.06B</text>
+    </g>
+
+    <g transform="translate(24 252)">
+      <rect x="0" y="0" width="260" height="92" rx="10" fill="#efe8fb"/>
+      <text class="market" x="18" y="31">Supplier management</text>
+      <text class="title" x="18" y="75" style="font-size:34px">$0.67B</text>
+    </g>
+
+    <g transform="translate(24 368)">
+      <rect x="0" y="0" width="260" height="92" rx="10" fill="#f8eadb"/>
+      <text class="market" x="18" y="31">Third-party risk</text>
+      <text class="title" x="18" y="75" style="font-size:34px">$8.09B</text>
+    </g>
+
+    <g transform="translate(24 484)">
+      <rect x="0" y="0" width="260" height="92" rx="10" fill="#dce9f6"/>
+      <text class="market" x="18" y="31">Food traceability SW</text>
+      <text class="title" x="18" y="75" style="font-size:34px">$4.2B</text>
+    </g>
+
+    <text class="axis" x="24" y="642">Legend</text>
+    <circle class="enterprise" cx="38" cy="680" r="10"/>
+    <text class="legend" x="58" y="685">Enterprise suite</text>
+    <circle class="startup" cx="38" cy="714" r="10"/>
+    <text class="legend" x="58" y="719">New-age startup (SUP)</text>
+    <circle class="compliance" cx="38" cy="748" r="10"/>
+    <text class="legend" x="58" y="753">Compliance / risk</text>
+    <circle class="finance" cx="38" cy="782" r="10"/>
+    <text class="legend" x="58" y="787">AP / finance workflow</text>
+    <circle class="legacy" cx="38" cy="816" r="10"/>
+    <text class="legend" x="58" y="821">Legacy / niche workflow</text>
+  </g>
+
+  <text class="note" x="80" y="1044">Revenue labels are included only where reasonably defensible: SAP total revenue, Coupa FY2022 public revenue before going private, and Ivalua 2024 revenue cited in Ardent/Ivalua material. Most startup/private vendor revenues and market shares are not reliably disclosed.</text>
+  <text class="note" x="80" y="1076">Recommended slide takeaway: NourishCo should target the upper-right whitespace: compliance-first supplier onboarding with enough orchestration to cover procurement, compliance, finance, and legal.</text>
+</svg>

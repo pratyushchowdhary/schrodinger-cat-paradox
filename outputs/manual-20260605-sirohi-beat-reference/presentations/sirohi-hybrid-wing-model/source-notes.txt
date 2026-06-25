@@ -1,0 +1,8 @@
+Source content:
+- User-provided Sirohi Hybrid Business Model text.
+- User-provided screenshot used only as a quality/reference benchmark.
+
+Design choice:
+- Fresh one-page wing model.
+- Not cloned from the screenshot.
+- No external logo asset used; brand appears as editable text only.

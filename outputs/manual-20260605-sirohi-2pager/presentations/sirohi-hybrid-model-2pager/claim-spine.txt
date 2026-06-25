@@ -1,0 +1,22 @@
+Thesis:
+Sirohi's hybrid model separates social inclusion from commercial scale: the Foundation builds participation and capability; SFPL builds market demand and business sustainability.
+
+Audience:
+Donors, partners, board members, investors, and institutional customers who need to understand the operating model quickly.
+
+One-line arc:
+Two entities coordinate through a cost-of-production bridge so products move to market and money returns to women artisans.
+
+Slide 1:
+Kicker: MODEL
+Claim: The Foundation enables participation; SFPL converts that capability into market demand.
+Proof object: Two-lane operating model with central production-cost bridge.
+Source: User-provided business model text.
+Omission notes: No legal/tax treatment shown.
+
+Slide 2:
+Kicker: FLOWS
+Claim: Products move outward to customers; money returns through SFPL and the Foundation to artisans.
+Proof object: Product and money flow diagram, plus value-created outcome rail.
+Source: User-provided business model text.
+Omission notes: No transaction values or margins shown.

@@ -1,0 +1,6 @@
+Thesis:
+Sirohi is a two-engine ecosystem: the Foundation builds capability and inclusion; SFPL builds demand and scale.
+
+Slide 1:
+Claim: Two engines keep one livelihood loop moving.
+Proof object: Single-page ecosystem loop showing capability, product, market, money, and value flows.

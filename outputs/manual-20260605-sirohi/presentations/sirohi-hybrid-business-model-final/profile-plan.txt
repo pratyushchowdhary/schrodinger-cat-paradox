@@ -1,0 +1,8 @@
+task mode: create
+primary deck-profile: strategy-leadership
+secondary gates: consumer-retail brand restraint; social enterprise impact clarity
+required proof objects: two-entity operating model, product flow, money flow, value created
+source/asset requirements: use only user-provided text; no external metrics
+brand authenticity: use text-only SIROHI brand cue; do not fabricate a logo or mark
+QA gates: editable PPTX, rendered PNG, PDF export, no text overflow, clear flow direction
+known missing inputs: official Sirohi brand assets and exact financial values are not provided

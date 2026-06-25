@@ -26,12 +26,23 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+      - name: Build pages bundle
+        run: |
+          rm -rf pages-site
+          mkdir -p pages-site
+          cp -R pages/. pages-site/
+          cp -R quantum-lab pages-site/
+          cp -R fraud-shield pages-site/
+          cp -R mining-material-mapper pages-site/
+          cp -R nokia-snake pages-site/
+          cp -R nourishco-prototype pages-site/
+          cp -R supplier-app pages-site/
       - name: Configure Pages
         uses: actions/configure-pages@v5
-      - name: Upload game
+      - name: Upload pages
         uses: actions/upload-pages-artifact@v3
         with:
-          path: quantum-lab
+          path: pages-site
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

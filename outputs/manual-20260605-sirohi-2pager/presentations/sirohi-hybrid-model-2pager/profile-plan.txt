@@ -1,0 +1,23 @@
+Task mode: create
+Primary deck-profile: strategy-leadership
+Secondary gates: consumer-retail craft brand tone, social enterprise model clarity
+
+Required proof objects:
+- Slide 1: two-entity operating model diagram.
+- Slide 2: product and money flow infographic with value outcomes.
+
+Source/asset requirements:
+- Use only user-provided business model text.
+- Do not invent metrics, legal claims, or official brand assets.
+
+Brand authenticity constraints:
+- No drawn or approximate Sirohi logo.
+- Use text-only brand label.
+
+Profile-specific QA gates:
+- Each slide must make a clear claim.
+- Flow direction must be visually unambiguous.
+- Text must remain readable at 1280x720 and in PowerPoint.
+
+Known missing inputs:
+- No official logo, brand guidelines, financial data, or impact metrics provided.

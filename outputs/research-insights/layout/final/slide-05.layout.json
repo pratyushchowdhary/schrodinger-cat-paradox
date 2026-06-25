@@ -1,0 +1,1458 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/jzkezy",
+    "id": "jzkezy",
+    "slide": 5,
+    "layoutId": "f0aec34f-9759-442e-936a-374e3aa31cc0",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "92724699-fbe8-4ce9-a549-65751e21c544",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Aptos",
+      "Aptos Display"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "f0aec34f-9759-442e-936a-374e3aa31cc0",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "92724699-fbe8-4ce9-a549-65751e21c544",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "92724699-fbe8-4ce9-a549-65751e21c544",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5kb6xkf6",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#FBF8FF",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ytsvu9kn",
+      "id": "2",
+      "bbox": [
+        0,
+        0,
+        1280,
+        72
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#C6CEC8",
+      "lineWidth": 1
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/neloj2t8",
+      "id": "3",
+      "bbox": [
+        56,
+        22,
+        390,
+        24
+      ],
+      "geometry": "rect",
+      "text": "NourishCo Research & Insights",
+      "textPreview": "NourishCo Research & Insights",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "Aptos Display",
+        "color": "#063728",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "NourishCo Research & Insights"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "NourishCo Research & Insights",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Aptos Display",
+            "color": "#063728",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "NourishCo Research & Insights",
+              "fontSize": 18,
+              "typeface": "Aptos Display",
+              "color": "#063728",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cbulwval",
+      "id": "4",
+      "bbox": [
+        56,
+        104,
+        900,
+        44
+      ],
+      "geometry": "rect",
+      "text": "Assumptions, Dependencies & Unknowns",
+      "textPreview": "Assumptions, Dependencies & Unknowns",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 32,
+        "typeface": "Aptos Display",
+        "color": "#101426",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Assumptions, Dependencies & Unknowns"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Assumptions, Dependencies & Unknowns",
+          "resolvedTextStyle": {
+            "fontSize": 32,
+            "typeface": "Aptos Display",
+            "color": "#101426",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Assumptions, Dependencies & Unknowns",
+              "fontSize": 32,
+              "typeface": "Aptos Display",
+              "color": "#101426",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5sneloj2",
+      "id": "5",
+      "bbox": [
+        58,
+        150,
+        980,
+        28
+      ],
+      "geometry": "rect",
+      "text": "What is known enough to proceed, and what must be validated.",
+      "textPreview": "What is known enough to proceed, and what must be validated.",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "Aptos",
+        "color": "#59645F",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "What is known enough to proceed, and what must be validated."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "What is known enough to proceed, and what must be validated.",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Aptos",
+            "color": "#59645F",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "What is known enough to proceed, and what must be validated.",
+              "fontSize": 14,
+              "typeface": "Aptos",
+              "color": "#59645F"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/u54zidon",
+      "id": "6",
+      "bbox": [
+        70,
+        210,
+        350,
+        310
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#C6CEC8",
+      "lineWidth": 1.1
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nqxs72x4",
+      "id": "7",
+      "bbox": [
+        70,
+        210,
+        5,
+        310
+      ],
+      "geometry": "rect",
+      "fillColor": "#2F7D55",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gbq1oryt",
+      "id": "8",
+      "bbox": [
+        92,
+        228,
+        306,
+        26
+      ],
+      "geometry": "rect",
+      "text": "Assumptions",
+      "textPreview": "Assumptions",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Aptos Display",
+        "color": "#101426",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Assumptions"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Assumptions",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Aptos Display",
+            "color": "#101426",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Assumptions",
+              "fontSize": 17,
+              "typeface": "Aptos Display",
+              "color": "#101426",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5wjudg7a",
+      "id": "9",
+      "bbox": [
+        92,
+        265,
+        306,
+        240
+      ],
+      "geometry": "rect",
+      "text": "• NourishCo has a central supplier master or can create one\n• One supplier may serve multiple brands and materials\n• Category, region, and brand rules can be modeled as configurable requirements\n• Human review remains required for final compliance decisions\n• Suppliers can review AI-extracted data before submitting",
+      "textPreview": "• NourishCo has a central supplier master or can create one | • One supplier may serve multiple brands and materials | • Category, region...",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 12,
+        "typeface": "Aptos",
+        "color": "#59645F",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 9,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• NourishCo has a central supplier master or can create"
+          },
+          {
+            "index": 2,
+            "text": "one"
+          },
+          {
+            "index": 3,
+            "text": "• One supplier may serve multiple brands and materials"
+          },
+          {
+            "index": 4,
+            "text": "• Category, region, and brand rules can be modeled as"
+          },
+          {
+            "index": 5,
+            "text": "configurable requirements"
+          },
+          {
+            "index": 6,
+            "text": "• Human review remains required for final compliance"
+          },
+          {
+            "index": 7,
+            "text": "decisions"
+          },
+          {
+            "index": 8,
+            "text": "• Suppliers can review AI-extracted data before"
+          },
+          {
+            "index": 9,
+            "text": "submitting"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "• NourishCo has a central supplier master or can create one",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "typeface": "Aptos",
+            "color": "#59645F",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• NourishCo has a central supplier master or can create one",
+              "fontSize": 12,
+              "typeface": "Aptos",
+              "color": "#59645F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "• One supplier may serve multiple brands and materials",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "typeface": "Aptos",
+            "color": "#59645F",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• One supplier may serve multiple brands and materials",
+              "fontSize": 12,
+              "typeface": "Aptos",
+              "color": "#59645F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "• Category, region, and brand rules can be modeled as configurable requirements",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "typeface": "Aptos",
+            "color": "#59645F",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• Category, region, and brand rules can be modeled as configurable requirements",
+              "fontSize": 12,
+              "typeface": "Aptos",
+              "color": "#59645F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "• Human review remains required for final compliance decisions",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "typeface": "Aptos",
+            "color": "#59645F",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• Human review remains required for final compliance decisions",
+              "fontSize": 12,
+              "typeface": "Aptos",
+              "color": "#59645F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "• Suppliers can review AI-extracted data before submitting",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "typeface": "Aptos",
+            "color": "#59645F",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• Suppliers can review AI-extracted data before submitting",
+              "fontSize": 12,
+              "typeface": "Aptos",
+              "color": "#59645F"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/54zidony",
+      "id": "10",
+      "bbox": [
+        465,
+        210,
+        350,
+        310
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#C6CEC8",
+      "lineWidth": 1.1
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cj6tovah",
+      "id": "11",
+      "bbox": [
+        465,
+        210,
+        5,
+        310
+      ],
+      "geometry": "rect",
+      "fillColor": "#2F67D8",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nyd0z610",
+      "id": "12",
+      "bbox": [
+        487,
+        228,
+        306,
+        26
+      ],
+      "geometry": "rect",
+      "text": "Dependencies",
+      "textPreview": "Dependencies",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Aptos Display",
+        "color": "#101426",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Dependencies"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Dependencies",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Aptos Display",
+            "color": "#101426",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Dependencies",
+              "fontSize": 17,
+              "typeface": "Aptos Display",
+              "color": "#101426",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/udg7adsj",
+      "id": "13",
+      "bbox": [
+        487,
+        265,
+        306,
+        240
+      ],
+      "geometry": "rect",
+      "text": "• OCR/document parser and confidence scoring\n• Supplier deduplication and entity matching\n• Role-based permissions and audit logs\n• Notification workflow for missing/expired documents\n• Integration with procurement/ERP systems later\n• Legal/privacy policy for document storage and retention",
+      "textPreview": "• OCR/document parser and confidence scoring | • Supplier deduplication and entity matching | • Role-based permissions and audit logs | •...",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 12,
+        "typeface": "Aptos",
+        "color": "#59645F",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 7,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• OCR/document parser and confidence scoring"
+          },
+          {
+            "index": 2,
+            "text": "• Supplier deduplication and entity matching"
+          },
+          {
+            "index": 3,
+            "text": "• Role-based permissions and audit logs"
+          },
+          {
+            "index": 4,
+            "text": "• Notification workflow for missing/expired documents"
+          },
+          {
+            "index": 5,
+            "text": "• Integration with procurement/ERP systems later"
+          },
+          {
+            "index": 6,
+            "text": "• Legal/privacy policy for document storage and"
+          },
+          {
+            "index": 7,
+            "text": "retention"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "• OCR/document parser and confidence scoring",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "typeface": "Aptos",
+            "color": "#59645F",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• OCR/document parser and confidence scoring",
+              "fontSize": 12,
+              "typeface": "Aptos",
+              "color": "#59645F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "• Supplier deduplication and entity matching",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "typeface": "Aptos",
+            "color": "#59645F",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• Supplier deduplication and entity matching",
+              "fontSize": 12,
+              "typeface": "Aptos",
+              "color": "#59645F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "• Role-based permissions and audit logs",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "typeface": "Aptos",
+            "color": "#59645F",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• Role-based permissions and audit logs",
+              "fontSize": 12,
+              "typeface": "Aptos",
+              "color": "#59645F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "• Notification workflow for missing/expired documents",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "typeface": "Aptos",
+            "color": "#59645F",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• Notification workflow for missing/expired documents",
+              "fontSize": 12,
+              "typeface": "Aptos",
+              "color": "#59645F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "• Integration with procurement/ERP systems later",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "typeface": "Aptos",
+            "color": "#59645F",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• Integration with procurement/ERP systems later",
+              "fontSize": 12,
+              "typeface": "Aptos",
+              "color": "#59645F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 6,
+          "text": "• Legal/privacy policy for document storage and retention",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "typeface": "Aptos",
+            "color": "#59645F",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• Legal/privacy policy for document storage and retention",
+              "fontSize": 12,
+              "typeface": "Aptos",
+              "color": "#59645F"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5gbq1ory",
+      "id": "14",
+      "bbox": [
+        860,
+        210,
+        350,
+        310
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#C6CEC8",
+      "lineWidth": 1.1
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cvixczed",
+      "id": "15",
+      "bbox": [
+        860,
+        210,
+        5,
+        310
+      ],
+      "geometry": "rect",
+      "fillColor": "#C71F1F",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nap4r65w",
+      "id": "16",
+      "bbox": [
+        882,
+        228,
+        306,
+        26
+      ],
+      "geometry": "rect",
+      "text": "Unknowns",
+      "textPreview": "Unknowns",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Aptos Display",
+        "color": "#101426",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Unknowns"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Unknowns",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Aptos Display",
+            "color": "#101426",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Unknowns",
+              "fontSize": 17,
+              "typeface": "Aptos Display",
+              "color": "#101426",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/upwb2hwf",
+      "id": "17",
+      "bbox": [
+        882,
+        265,
+        306,
+        240
+      ],
+      "geometry": "rect",
+      "text": "• Exact compliance rules by category and geography\n• Ownership of vendor master data across teams\n• Existing tools NourishCo must integrate with\n• Contracting workflow and approval thresholds\n• SLA expectations by brand and supplier type\n• Data residency, retention, and audit requirements",
+      "textPreview": "• Exact compliance rules by category and geography | • Ownership of vendor master data across teams | • Existing tools NourishCo must int...",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 12,
+        "typeface": "Aptos",
+        "color": "#59645F",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 6,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• Exact compliance rules by category and geography"
+          },
+          {
+            "index": 2,
+            "text": "• Ownership of vendor master data across teams"
+          },
+          {
+            "index": 3,
+            "text": "• Existing tools NourishCo must integrate with"
+          },
+          {
+            "index": 4,
+            "text": "• Contracting workflow and approval thresholds"
+          },
+          {
+            "index": 5,
+            "text": "• SLA expectations by brand and supplier type"
+          },
+          {
+            "index": 6,
+            "text": "• Data residency, retention, and audit requirements"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "• Exact compliance rules by category and geography",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "typeface": "Aptos",
+            "color": "#59645F",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• Exact compliance rules by category and geography",
+              "fontSize": 12,
+              "typeface": "Aptos",
+              "color": "#59645F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "• Ownership of vendor master data across teams",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "typeface": "Aptos",
+            "color": "#59645F",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• Ownership of vendor master data across teams",
+              "fontSize": 12,
+              "typeface": "Aptos",
+              "color": "#59645F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "• Existing tools NourishCo must integrate with",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "typeface": "Aptos",
+            "color": "#59645F",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• Existing tools NourishCo must integrate with",
+              "fontSize": 12,
+              "typeface": "Aptos",
+              "color": "#59645F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "• Contracting workflow and approval thresholds",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "typeface": "Aptos",
+            "color": "#59645F",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• Contracting workflow and approval thresholds",
+              "fontSize": 12,
+              "typeface": "Aptos",
+              "color": "#59645F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "• SLA expectations by brand and supplier type",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "typeface": "Aptos",
+            "color": "#59645F",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• SLA expectations by brand and supplier type",
+              "fontSize": 12,
+              "typeface": "Aptos",
+              "color": "#59645F"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 6,
+          "text": "• Data residency, retention, and audit requirements",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "typeface": "Aptos",
+            "color": "#59645F",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• Data residency, retention, and audit requirements",
+              "fontSize": 12,
+              "typeface": "Aptos",
+              "color": "#59645F"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1orytsvu",
+      "id": "18",
+      "bbox": [
+        70,
+        562,
+        1140,
+        74
+      ],
+      "geometry": "rect",
+      "fillColor": "#EEF4F0",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/c7u54zid",
+      "id": "19",
+      "bbox": [
+        94,
+        578,
+        160,
+        20
+      ],
+      "geometry": "rect",
+      "text": "MVP risk control",
+      "textPreview": "MVP risk control",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 13,
+        "typeface": "Aptos",
+        "color": "#063728",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "MVP risk control"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "MVP risk control",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "typeface": "Aptos",
+            "color": "#063728",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "MVP risk control",
+              "fontSize": 13,
+              "typeface": "Aptos",
+              "color": "#063728",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/oza1gvy9",
+      "id": "20",
+      "bbox": [
+        254,
+        578,
+        870,
+        36
+      ],
+      "geometry": "rect",
+      "text": "Start with limited supplier categories, configurable rule templates, manual override, audit trail, and clear escalation paths. Do not automate final approval in MVP.",
+      "textPreview": "Start with limited supplier categories, configurable rule templates, manual override, audit trail, and clear escalation paths. Do not aut...",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "Aptos",
+        "color": "#101426",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Start with limited supplier categories, configurable rule templates, manual override, audit trail, and clear escalation paths. Do not automate"
+          },
+          {
+            "index": 2,
+            "text": "final approval in MVP."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Start with limited supplier categories, configurable rule templates, manual override, audit trail, and clear escalation paths. Do not automate final approval in MVP.",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Aptos",
+            "color": "#101426",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Start with limited supplier categories, configurable rule templates, manual override, audit trail, and clear escalation paths. Do not automate final approval in MVP.",
+              "fontSize": 14,
+              "typeface": "Aptos",
+              "color": "#101426"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hk3q5o7q",
+      "id": "21",
+      "bbox": [
+        56,
+        676,
+        1168,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#C6CEC8",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6xkf6dcb",
+      "id": "22",
+      "bbox": [
+        58,
+        688,
+        720,
+        16
+      ],
+      "geometry": "rect",
+      "text": "Fictional case study. Public market numbers are directional proxies, not exact NourishCo TAM.",
+      "textPreview": "Fictional case study. Public market numbers are directional proxies, not exact NourishCo TAM.",
+      "resolvedFontSize": 8.51,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 8.51,
+        "typeface": "Aptos",
+        "color": "#59645F",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Fictional case study. Public market numbers are directional proxies, not exact NourishCo TAM."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Fictional case study. Public market numbers are directional proxies, not exact NourishCo TAM.",
+          "resolvedTextStyle": {
+            "fontSize": 8.51,
+            "typeface": "Aptos",
+            "color": "#59645F",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Fictional case study. Public market numbers are directional proxies, not exact NourishCo TAM.",
+              "fontSize": 8.51,
+              "typeface": "Aptos",
+              "color": "#59645F"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zed8v6ps",
+      "id": "23",
+      "bbox": [
+        1180,
+        686,
+        40,
+        18
+      ],
+      "geometry": "rect",
+      "text": "05",
+      "textPreview": "05",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 10,
+        "typeface": "Aptos",
+        "color": "#59645F",
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "05"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "05",
+          "resolvedTextStyle": {
+            "fontSize": 10,
+            "typeface": "Aptos",
+            "color": "#59645F",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "05",
+              "fontSize": 10,
+              "typeface": "Aptos",
+              "color": "#59645F"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

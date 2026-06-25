@@ -1,0 +1,39 @@
+Slide size: 1280x720
+
+Background:
+- Warm off-white paper background.
+- Deep ink text.
+- Sparse hairline rules.
+
+Typography:
+- Title: Aptos Display, 34-42px.
+- Kicker: Aptos, 11px uppercase.
+- Body/labels: Aptos, 11-18px.
+
+Palette:
+- Base: #FBFAF6 paper, #13231B ink, #5C665F muted.
+- Foundation: #55704A green, #EEF4EA pale green.
+- SFPL: #A33A45 muted red, #F8ECEE pale red.
+- Bridge/money: #B08032 ochre, #FBF1DD pale ochre.
+- Product flow: #1F4F78 blue.
+
+Diagram grammar:
+- Lanes indicate entity ownership.
+- Arrows only where direction matters.
+- Green = Foundation capability and artisan payment.
+- Red = SFPL commercial activity.
+- Blue = product movement.
+- Ochre = money/cost invoicing.
+
+Footer grammar:
+- Small page marker and quiet source note.
+
+Brand asset policy:
+- No logo used. Text-only brand label.
+
+Allowed layout families:
+- Two-lane operating model.
+- Horizontal flow map with reverse money loop.
+
+Banned motifs:
+- Fake logos, decorative blobs, generic dashboard cards, unnecessary stock imagery.

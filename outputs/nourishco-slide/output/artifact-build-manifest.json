@@ -1,0 +1,27 @@
+{
+  "output": "/Users/pcx/Downloads/Check/outputs/nourishco-slide/output/nourishco-competitive-positioning.pptx",
+  "outputBytes": 16747,
+  "slideCount": 1,
+  "slideSize": {
+    "width": 1280,
+    "height": 720
+  },
+  "previewDir": "/Users/pcx/Downloads/Check/outputs/nourishco-slide/preview",
+  "previewPaths": [
+    "/Users/pcx/Downloads/Check/outputs/nourishco-slide/preview/slide-01.png"
+  ],
+  "layoutDir": "/Users/pcx/Downloads/Check/outputs/nourishco-slide/layout",
+  "layoutResults": [
+    {
+      "layoutPath": "/Users/pcx/Downloads/Check/outputs/nourishco-slide/layout/slide-01.layout.json"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "requestedSlideNumber": 1,
+      "modulePath": "/Users/pcx/Downloads/Check/outputs/nourishco-slide/slides/slide-01.mjs",
+      "exportName": "slide01"
+    }
+  ]
+}

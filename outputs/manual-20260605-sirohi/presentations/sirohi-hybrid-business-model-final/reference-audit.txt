@@ -1,0 +1,2 @@
+No external reference deck supplied.
+Existing local Sirohi drafts were inspected only to understand prior workspace context, not used as a template.
